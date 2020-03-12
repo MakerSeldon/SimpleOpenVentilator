@@ -1,5 +1,5 @@
 # OpenVert
-Open Source, Open Hardware design for home built ventilator
+Open Source, Open Hardware experimental design for home built ventilator for learning about how they work
 
 # Mission Statement
 - Perfect is the enemy of good enough and never gets here.
