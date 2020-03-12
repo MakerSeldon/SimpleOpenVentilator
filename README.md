@@ -7,6 +7,7 @@ Open Source, Open Hardware experimental design for home built ventilator for lea
 - Third best is here.
 -  (paraphrased -- reference: ....)
 
+
 # Mass Casualty Ventilator system
 
 COVID-19 has exposed a critical shortage in our medical care capabilities, and supply chain. (REF Italy doc report). Throwing money at the vendors to produce more and faster is unlikely to work in serious world-wide pandemic where supply-chains are shut down, the need for ventilators vastly outstrips the manufacturing capability, or quarantine simply shuts down transportation.
