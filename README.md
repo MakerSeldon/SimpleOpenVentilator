@@ -2,10 +2,10 @@
 Open Source, Open Hardware design for home built ventilator
 
 # Mission Statement
-Perfect is the enemy of good enough and never gets here.
-Second best is always too late.
-Third best is here.
- (paraphrased -- reference: ....)
+- Perfect is the enemy of good enough and never gets here.
+- Second best is always too late.
+- Third best is here.
+-  (paraphrased -- reference: ....)
 
 # Mass Casualty Ventilator system
 
