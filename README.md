@@ -31,3 +31,17 @@ What we need – as absolutely as simple as possible. Mechanical preferred for f
 7)	Method to meter total air volume exhaled
 8)	Method to capture and clean exhaled air
 
+
+---------------
+Guidance Received to date:
+From Board Certified Anesthesiologist
+* Ideal Tidal Volumes 500-700mL 
+* Peek Pressure shouldn't exceed 40mmhg, ability to push 60mmhg
+* suction is bad -- Need verification of neg pressure vs suction
+
+--------------
+Need hardware models for lungs
+Can start with
+https://www.target.com/p/6ct-punch-balloons-spritz-8482/-/A-14776450
+
+
