@@ -1,6 +1,6 @@
 # Experiment 1:
 Can we build a box that can filter the air from a shop vac from Home Depot
-![Airflow Box](AirBoxExperiment_1.jpg)
+![Airflow Box](AirflowBox.jpg)
 Format: ![Alt Text](url)
 ---------
 # Hypothesis 1:
@@ -8,6 +8,9 @@ We can build a box that will provide laminar flow through the volume so gravity 
 
 ## Build - 1
 Single Stage Filter box
+![Airflow Box](AirBoxExperiment_1.jpg)
+Format: ![Alt Text](url)
+
 Shop vac input -- box -- 16x20x4 filter -- box -- 2" output
 * AirBoxExperiment_1.jpg shows supplies used
 * AirflowBox.jpg show concept for multi-stage.
