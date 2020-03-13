@@ -20,4 +20,4 @@ Gravity based 2PSI would be a 5lb weight
 
 
 # Possible Alternatives
-* [https://www.grainger.com/product/CDI-CONTROL-DEVICES-Vacuum-Pressure-Relief-Valve-5Z763?cm_sp=Product_Details-_-Products_Based_on_Your_Search-_-IDPPLARECS&cm_vc=IDPPLARECS](poppet valve)
+* ![https://www.grainger.com/product/CDI-CONTROL-DEVICES-Vacuum-Pressure-Relief-Valve-5Z763?cm_sp=Product_Details-_-Products_Based_on_Your_Search-_-IDPPLARECS&cm_vc=IDPPLARECS](poppet valve)
