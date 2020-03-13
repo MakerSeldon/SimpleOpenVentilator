@@ -21,6 +21,9 @@ Functionally tested system Air blows through fine -- no significant pitch change
 
 # Hypothesis 2:
 Shop Vac can push enough air through filter-box without loading the vac significantly.
+## Results:
+Initial results positive, not change in sound from shop vac. TODO: measure pressure drop across box. 
+
 
 ## Build - 2
 Build simple manometer for input and output
