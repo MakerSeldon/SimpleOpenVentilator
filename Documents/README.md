@@ -21,3 +21,7 @@ Gravity based 2PSI would be a 5lb weight
 
 # Possible Alternatives
 * [Poopet Valve](https://www.grainger.com/product/CDI-CONTROL-DEVICES-Vacuum-Pressure-Relief-Valve-5Z763?cm_sp=Product_Details-_-Products_Based_on_Your_Search-_-IDPPLARECS&cm_vc=IDPPLARECS)
+
+# basic gravity valve
+![basic gravity valve](prd1small_1_1.jpg)
+[source](https://www.famcomfg.com/product/pressure-relief-barometric-damper/?attribute_pa_size=ab-6inch&utm_source)
