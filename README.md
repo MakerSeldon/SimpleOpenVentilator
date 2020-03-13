@@ -7,6 +7,23 @@ Open Source, Open Hardware experimental design for home built ventilator for lea
 - Third best is here.
 -  (paraphrased -- reference: ....)
 
+# What we have volunteering part time
+- Doc reviewing our effort
+- Senior Hydraulic Engineer
+- Master Fabricator
+- Senior Electrical Engineer
+
+# What we need
+- Documentation help
+- Fabrication duplication
+- Imagineers
+- Nurses / PA's
+- Makers to help
+- Funding for parts & help
+
+# System Diagram
+- Diagram is incomplete. Needs reviewing
+![Parts used](/AirSource/FlowDiagramv1.jpg)
 
 # Mass Casualty Ventilator system
 
