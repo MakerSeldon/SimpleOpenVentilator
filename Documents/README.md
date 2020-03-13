@@ -17,3 +17,7 @@ Gravity based 2PSI would be a 5lb weight
 * Build Pressure Control valve (5lb 2 T)
 * Build Manometer with sliding scale in the middle for evaprotation
 * Contents Manometer is distilled water and food coloring
+
+
+# Possible Alternatives
+* [poppet valve] (https://www.grainger.com/product/CDI-CONTROL-DEVICES-Vacuum-Pressure-Relief-Valve-5Z763?cm_sp=Product_Details-_-Products_Based_on_Your_Search-_-IDPPLARECS&cm_vc=IDPPLARECS)
