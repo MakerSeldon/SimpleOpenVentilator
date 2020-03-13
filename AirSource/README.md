@@ -1,13 +1,14 @@
 # Experiment 1:
 Can we build a box that can filter the air from a shop vac from Home Depot
 ![Airflow Box](AirflowBox.jpg)
-Format: ![Overall Diagram]
+Format: ! Overall Diagram showing notional layout
 ---------
 # Hypothesis 1:
 We can build a box that will provide laminar flow through the volume so gravity can filter larger particles, and HEPA / nice filters can do the job
 
 ## Build - 1
 Single Stage Filter box
+
 ![Parts used](AirBoxExperiment_1.jpg)
 Format: ![Picture showing parts used ]
 
