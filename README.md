@@ -20,6 +20,8 @@ Open Source, Open Hardware experimental design for home built ventilator for lea
 - Nurses / PA's
 - Makers to help
 - Funding for parts & help
+- Bitcoin Account for donations
+- Accounting Method to show expenditures
 
 # System Diagram
 - Diagram is incomplete. Needs reviewing
