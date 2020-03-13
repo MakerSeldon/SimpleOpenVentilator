@@ -8,13 +8,14 @@ We can build a box that will provide laminar flow through the volume so gravity 
 ## Build - 1
 Single Stage Filter box
 
-![Parts used](AirBoxExperiment_1.jpg)
 
 Shop vac input -- box -- 16x20x4 filter -- box -- 2" output
 * AirBoxExperiment_1.jpg shows supplies used
-* AirflowBox.jpg show concept for multi-stage.
+  ![Parts used](AirBoxExperiment_1.jpg)
 * FilterInstall.jpg shows putting the filter in the middle of two boxes
+  ![Installing the filter](FilterInstall.jpg)
 * Input/Output.jpg shows installing the in/out fittings.
+  ![Final Assembly of single stage](InputOutput.jpg)
 
 Functionally tested system Air blows through fine -- no significant pitch change in shop vac. Shop vac has filter and bag installed.
 
