@@ -1,6 +1,14 @@
 # OpenVert
 Open Source, Open Hardware experimental design for home built ventilator for learning about how they work.
 
+#Disclaimer:
+Due to liability issues
+**This is for study and research, we are not producing a product. No warranty of usefulness at all**
+
+Until we get further guidance the project is licensed as such:
+* CERN Open Hardware Licence Version 2 - Permissive
+[license](/license.md)
+
 # Motivation
 COVID-19 has exposed a critical shortage in our medical care capabilities, and supply chain. (REF Italy doc report). Throwing money at the vendors to produce more and faster is unlikely to work in serious world-wide pandemic where supply-chains are shut down, the need for ventilators vastly outstrips the manufacturing capability, or quarantine simply shuts down transportation.
 
