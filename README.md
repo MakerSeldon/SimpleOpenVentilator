@@ -11,10 +11,13 @@ The total number of ventilators available is around 600-800k(1). Of the total ve
 (1) Based on off the record conversations with USG officials.
 
 # Mission Statement
+Our guiding principle is the same of Henry Watt's approach to development of Radar for Britian in WW2
 - Perfect is the enemy of good enough and never gets here.
 - Second best is always too late.
-- Third best is here.
--  (paraphrased -- reference: ....)
+- Third best will do
+
+'''Watt: The system was deliberately developed using existing commercially available technology to speed introduction.[60] The development team could not afford the time to develop and debug new technology. Watt, a pragmatic engineer, believed "third-best" would do if "second-best" would not be available in time and "best" never available at all. -- quote from wikipedia
+'''
 
 # What we have volunteering part time
 - Doc reviewing our effort
