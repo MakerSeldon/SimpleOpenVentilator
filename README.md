@@ -56,7 +56,7 @@ Our guiding principle is the same of Henry Watt's approach to development of Rad
 
 # System Diagram
 - Diagram is incomplete. Needs reviewing
-![Parts used](/AirSource/FlowDiagramv1.jpg)
+![Overall System Design](/RawDesigns/openventsystemdiagram.jpg)
 
 # Mass Casualty Ventilator system
 
