@@ -5,8 +5,9 @@ Open Source, Open Hardware experimental design for home built ventilator for lea
 Due to liability issues
 **This is for study and research, we are not producing a product. No warranty of usefulness at all**
 
-Extraction from License
-DISCLAIMER OF WARRANTY -- The Covered Source and any Products
+#Extraction from License
+
+5.1 DISCLAIMER OF WARRANTY -- The Covered Source and any Products
     are provided 'as is' and any express or implied warranties,
     including, but not limited to, implied warranties of
     merchantability, of satisfactory quality, non-infringement of
