@@ -1,5 +1,14 @@
 # OpenVert
-Open Source, Open Hardware experimental design for home built ventilator for learning about how they work
+Open Source, Open Hardware experimental design for home built ventilator for learning about how they work.
+
+# Motivation
+COVID-19 has exposed a critical shortage in our medical care capabilities, and supply chain. (REF Italy doc report). Throwing money at the vendors to produce more and faster is unlikely to work in serious world-wide pandemic where supply-chains are shut down, the need for ventilators vastly outstrips the manufacturing capability, or quarantine simply shuts down transportation.
+
+
+The total number of ventilators available is around 600-800k(1). Of the total ventilators 80% are currently in use for car accidents, surgery recovery, etc. Even if we had 1M and 20% avail that only leave 200k avail. The CDC is predicting over 1M dead in one model. These people might live if ventilators were available. We think we can help, and it is our duty to help. We don't want doctors and nurses having to choose who lives and who dies in the emergency room based on the number of ventilators available.
+
+
+(1) Based on off the record conversations with USG officials.
 
 # Mission Statement
 - Perfect is the enemy of good enough and never gets here.
