@@ -3,7 +3,8 @@ Open Source, Open Hardware experimental design for home built ventilator for lea
 
 If you want to donate to assit in buying parts etc. Here is a bitcoin address of one of the developers
 
-12VbmzcMsj5VtiCuqSdMPihkLPt9UEqHfd
+```12VbmzcMsj5VtiCuqSdMPihkLPt9UEqHfd```
+
 We are working on having a 501(c)3 being able to accept donations
 [ABSOG](https://threesecondsuntilmidnight.com/absog) 
 but they currently do not have a page. 
