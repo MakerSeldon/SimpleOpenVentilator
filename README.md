@@ -1,8 +1,9 @@
 # OpenVert
 Open Source, Open Hardware experimental design for home built ventilator for learning about how they work.
 
-#Disclaimer:
+# Disclaimer
 Due to liability issues
+
 **This is for study and research, we are not producing a product. No warranty of usefulness at all**
 
 #Extraction from License
