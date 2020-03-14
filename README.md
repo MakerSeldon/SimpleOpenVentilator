@@ -6,9 +6,6 @@ If you want to donate to assit in buying parts etc. Here is a bitcoin address of
 ```12VbmzcMsj5VtiCuqSdMPihkLPt9UEqHfd```
 
 We are working on having a 501(c)3 being able to accept donations
-[ABSOG](https://threesecondsuntilmidnight.com/absog) 
-But they currently do not have a donation page. 
-We are working to rectify that.  
 
 
 
