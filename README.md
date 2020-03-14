@@ -7,7 +7,10 @@ If you want to donate to assit in buying parts etc. Here is a bitcoin address of
 
 We are working on having a 501(c)3 being able to accept donations
 [ABSOG](https://threesecondsuntilmidnight.com/absog) 
-but they currently do not have a page. 
+But they currently do not have a donation page. 
+We are working to rectify that.  
+
+
 
 # Motivation
 COVID-19 has exposed a critical shortage in our medical care capabilities, and supply chain. (REF Italy doc report). Throwing money at the vendors to produce more and faster is unlikely to work in serious world-wide pandemic where supply-chains are shut down, the need for ventilators vastly outstrips the manufacturing capability, or quarantine simply shuts down transportation.
