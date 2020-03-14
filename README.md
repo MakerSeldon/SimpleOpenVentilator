@@ -3,8 +3,7 @@ Open Source, Open Hardware experimental design for home built ventilator for lea
 
 # Disclaimer
 Due to liability issues
-
-**This is for study and research, we are not producing a product. No warranty of usefulness at all**
+**No warranty of usefulness at all**
 
 # Donations
 If you want to donate to the project you may donate to a developer directly for parts etc:
