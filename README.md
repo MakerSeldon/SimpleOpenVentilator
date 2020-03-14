@@ -6,38 +6,16 @@ Due to liability issues
 
 **This is for study and research, we are not producing a product. No warranty of usefulness at all**
 
-#Extraction from License
+# Donations
+If you want to donate to the project you may donate to a developer directly for parts etc:
+```
+BTC: 12VbmzcMsj5VtiCuqSdMPihkLPt9UEqHfd
+```
 
-5.1 DISCLAIMER OF WARRANTY -- The Covered Source and any Products
-    are provided 'as is' and any express or implied warranties,
-    including, but not limited to, implied warranties of
-    merchantability, of satisfactory quality, non-infringement of
-    third party rights, and fitness for a particular purpose or use
-    are disclaimed in respect of any Source or Product to the
-    maximum extent permitted by law. The Licensor makes no
-    representation that any Source or Product does not or will not
-    infringe any patent, copyright, trade secret or other
-    proprietary right. The entire risk as to the use, quality, and
-    performance of any Source or Product shall be with You and not
-    the Licensor. This disclaimer of warranty is an essential part
-    of this Licence and a condition for the grant of any rights
-    granted under this Licence.
-
-5.2 EXCLUSION AND LIMITATION OF LIABILITY -- The Licensor shall, to
-    the maximum extent permitted by law, have no liability for
-    direct, indirect, special, incidental, consequential, exemplary,
-    punitive or other damages of any character including, without
-    limitation, procurement of substitute goods or services, loss of
-    use, data or profits, or business interruption, however caused
-    and on any theory of contract, warranty, tort (including
-    negligence), product liability or otherwise, arising in any way
-    in relation to the Covered Source, modified Covered Source
-    and/or the Making or Conveyance of a Product, even if advised of
-    the possibility of such damages, and You shall hold the
-    Licensor(s) free and harmless from any liability, costs,
-    damages, fees and expenses, including claims by third parties,
-    in relation to such use.
-
+Or you can done to a 501(c)3
+The Asymmetrical Biodiversity Studies and Observation Group
+[ABSOG](https://threesecondsuntilmidnight.com/absog/)
+They are working on a direct donation page.
 
 # License
 Until we get further guidance the project is licensed as such:
