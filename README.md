@@ -12,8 +12,8 @@ BTC: 12VbmzcMsj5VtiCuqSdMPihkLPt9UEqHfd
 ```
 
 Or you can done to a 501(c)3
-The Asymmetrical Biodiversity Studies and Observation Group
-[ABSOG](https://threesecondsuntilmidnight.com/absog/)
+**The Asymmetrical Biodiversity Studies and Observation Group**
+[(ABSOG)](https://threesecondsuntilmidnight.com/absog/)
 They are working on a direct donation page.
 
 # License
