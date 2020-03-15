@@ -1,5 +1,5 @@
 # OpenVert
-Open Source, Open Hardware experimental design for home built ventilator for learning about how they work. We take learning very seriously. Our system design and build is [here](/System/README.md)
+Open Source, Open Hardware experimental design for home built ventilator for learning about how they work. We take learning very seriously. Our system design and build is [here](System/README.md)
 
 # Disclaimer
 Due to liability issues
