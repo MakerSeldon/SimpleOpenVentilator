@@ -7,10 +7,8 @@
 * * The T side would be the pressure relief side
 
 # Methodology
-Gravity based controls are the most accurate and the simplest to construct. Example for a 1.2PSI relief approximately 42 quarters will provide the gravity relief
-* Insert math for PSI vs mass
+Our concept is that almost all parts needed for the system can be acquired at your local plumbing and home improvement store. The system is based on pneumatics, not electronics. This makes assembly, modification, and repair possible remotely.
 
-Gravity based 2PSI would be a 5lb weight
 
 # TODO:
 * Build Pressure relief valve
