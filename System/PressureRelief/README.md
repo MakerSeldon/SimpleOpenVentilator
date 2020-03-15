@@ -5,5 +5,5 @@ Basic gravity pressure relief valve. When overpressure occurs, the lid tilts kno
 Links go here
 
 # Version 2
-![As Sketched](../System/RawDesigns/)
+![As Sketched](../System/RawDesigns/PRV_sketch.jpg)
 ![As Built](../System/Images/PRV.jpg)
