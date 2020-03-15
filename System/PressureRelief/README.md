@@ -6,4 +6,4 @@ Links go here
 
 # Version 2
 ![As Sketched](../RawDesigns/PRV_sketch.jpg)
-![As Built](../Images/PRV.jpg)
+![As Built](../Images/PRV_built.jpg)
