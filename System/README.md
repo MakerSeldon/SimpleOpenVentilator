@@ -2,6 +2,8 @@
 
 Description goes here
 
+# [Low Pressure Manometer](LowPressureManometer/README.md)
+
 # [Pressure Control Valve](PressureControlValve/README.md)
 Responsible for the overall system pressure regulation. Simple design based on gravity and a leaky regulator.
 
