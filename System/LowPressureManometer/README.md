@@ -13,4 +13,4 @@ It is relatively easy to make a manometer, clear tubing and some water, but as I
 Reality
 ![Working Manometer](manometer_success.jpg)
 
-Measured 39" of pressure.
+Measured 39" of pressure..
