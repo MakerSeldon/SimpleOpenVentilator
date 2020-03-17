@@ -1,5 +1,5 @@
 # Overall System Design
-System Diagram goes here
+**System Diagram** 
 
 ![System Block Diagram](SystemBlockDiagram.jpg)
 As many parts from HD as possible
