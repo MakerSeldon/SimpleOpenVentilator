@@ -1,7 +1,7 @@
 # Overall System Design
-**System Diagram** 
+**System Diagram**
 
-![System Block Diagram](SystemBlockDiagram.jpg)
+![System Block Diagram](SystemBlockDiagram2.jpg)
 As many parts from HD as possible
 
 Air Pressure Delivery
