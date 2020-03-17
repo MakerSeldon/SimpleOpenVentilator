@@ -4,13 +4,13 @@ System Diagram goes here
 As many parts from HD as possible
 
 Air Pressure Delivery
-\- Manometer -- Pressure control Vale
-\- Pressure Control Valve
-\- Over Pressure Relief Valve
-\- Distribution System
-\- Individual tap
-\- Ambubag compressor
-\- Exhale Filter
+* \- Manometer -- Pressure control Vale
+* \- Pressure Control Valve
+* \- Over Pressure Relief Valve
+* \- Distribution System
+* \- Individual tap
+* \- Ambubag compressor
+* \- Exhale Filter
 
 # [Air Pressure Delivery](AirPressureDelivery/README.md)
 We need air pressure to run the system and to provide venturi for exhale filtering.
