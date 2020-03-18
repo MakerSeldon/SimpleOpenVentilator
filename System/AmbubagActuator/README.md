@@ -1,5 +1,11 @@
 # Actuator
-Moving on to the squishing tool. We are going to use an amubag (accumulator) approach for the near term.
+Moving on to the squishing tool. We are going to use an ambu+ (accumulator) approach for the near term.
+
+# Ambu Valve Schematic
+![Schematic](Ambu_schematic.jpg)
+
+# Flow Diagram
+![Flow Diagram](flow_diagram.jpg)
 
 # System is gravity and pressure based.
 the accumulator is put between two boards that are hinged on the other end.
