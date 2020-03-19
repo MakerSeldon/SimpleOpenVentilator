@@ -4,22 +4,26 @@
 
 **Goal: Build a demonstration ventilator with as many locally available parts as possible**
 
-Our [Main Page](../README.md) has the overall description and mission. These are describes the actual buildout of the system. 
+Our [Main Page](../README.md) has the overall description and mission. These are describes the actual buildout of the system.
 
 # Overall System Design
 **System Diagram**
 **Under Development -- Not accurate yet**
 ![System Block Diagram](SystemBlockDiagram4.png)
-As many parts from HD as possible
 
-Air Pressure Delivery
-* \- Manometer -- Pressure control Vale
-* \- Pressure Control Valve
-* \- Over Pressure Relief Valve
-* \- Distribution System
-* \- Individual tap
-* \- Ambubag compressor
-* \- Exhale Filter
+# Major Blocks of the Design
+* **Air Source:** Generate enough clean Air Flow and Pressure for system
+* **Pressure Measurement Tool** Manometer to measure pressure
+* **Pressure Contol Valve** Keep Constant pressure between 21.4 inH2O and 32 inH2O
+* **Pressure Relief Valve** Over Pressure Safety Valve
+* **Air Pressure Distribution** Move the air around
+* **Individual Station Air Tap**
+* **Ventilator Station**
+* \- *Tidal Air Delivery*
+* \- *Respiration Rate*
+* \- *Tidal Air Removal*
+* \- *Tidal Air Filtration*
+
 
 # [Air Pressure Delivery](AirPressureDelivery/README.md)
 We need air pressure to run the system and to provide venturi for exhale filtering.
