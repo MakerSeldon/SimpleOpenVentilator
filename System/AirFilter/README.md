@@ -27,6 +27,10 @@ Shop Vac can push enough air through filter-box without loading the vac signific
 * Initial output pressure 0.5"water on the manometer
 * Tested direct output of ShopVac Blew water out 3' 5/8ID hose
 
+# RESULTS: **NEGATIVE** Box leaked way too much air.  Need to try again with a crate
+
+
+
 
 ## Build - 2
 Build simple manometer for input and output
