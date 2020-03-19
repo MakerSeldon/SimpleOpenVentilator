@@ -5,9 +5,9 @@ The goal of this project is to demonstrate that a complex ventilator is possible
 
 What does a ventilator need to do in the simplest case. It needs to gently push air to lungs and assist with exhale. We can do this with a constant pressure source, a few valves, and the Venturi effect. We will not be worried about noise or efficiency.
 
-This simplest diagram shows and airsource, a valve that opens one side or the ether (L/R) allowing gas to pass vertially on that side. The left hand side flows air into the balloon. The right hand side allows air to leave the balloon, but assists the exhaust applying a slight vac to the output.
+The diagram below shows the Fill and Exhaust states. During the Fill state a valve opens (V1) filling the balloon. During the next state, V1 closes and V2 opens. The air flow for V2 is configured such that a slight negative pressure from ambient is applied to the balloon with a Venturi effect. Normally, this is unnecessary as the balloon will return to flat. But in this case the balloon has a damp sponge in it. This makes returning to the rest state difficult.
 
-![Simple Diagram](/System/Simple.jpg)
+![Concept Diagram](/System/Images/ConceptDiagram.png)
 
 
 
