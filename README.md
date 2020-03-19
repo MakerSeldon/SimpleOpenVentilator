@@ -13,13 +13,13 @@ The diagram below shows the Fill and Exhaust states. During the Fill state a val
 # Technical Constraints
 We have limits on the total volume, Respiration rate, and max pressure that can be applied to the balloon. The medical industry uses terms of art we need to convert to more traditional engineering terms.
 
-Tidal Volume -- Volume of air that needs to be pushed and pulled out of the balloon: 400-700mL. This is a reasonable amount. We can figure this out.
+**Tidal Volume** -- Volume of air that needs to be pushed and pulled out of the balloon: 400-700mL. This is a reasonable amount. We can figure this out.
 
-Pressure mmHg -- Standard pressure measurement, but we like to work in PSI.
+**Pressure mmHg** -- Standard pressure measurement, but we like to work in PSI.
 40mmHg == 0.77PSI. This is too small for our normal measuring tools. We need a way to work with this. Mercury is hard to get and poisonous, we will use water.
 1mmHg = 0.535776 inH2O, or about 1.3cmH2O very doable and easy.
 
-Respiration Rate -- Fill, wait, exhaust cycles. We call this hysteresis. Simple control problems. 5-30 breaths per minute.
+**Respiration Rate** -- Fill, wait, exhaust cycles. We call this hysteresis. Simple control problems. 5-30 breaths per minute.
 
 # Tunable values
 * Tidal Volume 400mL to 600mL
@@ -30,7 +30,7 @@ Respiration Rate -- Fill, wait, exhaust cycles. We call this hysteresis. Simple 
 We know we can spend money and time to make very nice ventilators. What can we do when we need many more than can be manufactured in a hurry? Can we leverage local tradesman talent and supplies? If we assume our normal scientific supply chain is broken or too slow we have to move to distributed manufacturing with what is in stock. Our group is taking the Apollo 13 approach. What is available in the local stores, and what can local craftsmen construct? Can this be completed with all in stock parts from a local hardware store?  
 
 # Tasks:
-* *Create a system absolutely as simple as possible*
+* **Create a system absolutely as simple as possible**
 * Create a constant low pressure high volume air supply
 * Create Safety system to reduce injuries
 * Create measurement system
@@ -73,8 +73,9 @@ The total number of ventilators available is around 600-800k(1). Of the total ve
 
 # Mission Statement
 Henry Watt from Britain during WW2 said --
-'''Watt: The system was deliberately developed using existing commercially available technology to speed introduction.[60] The development team could not afford the time to develop and debug new technology. Watt, a pragmatic engineer, believed "third-best" would do if "second-best" would not be available in time and "best" never available at all. -- quote from wikipedia
-'''
+
+**'''Watt: The system was deliberately developed using existing commercially available technology to speed introduction.[60] The development team could not afford the time to develop and debug new technology. Watt, a pragmatic engineer, believed "third-best" would do if "second-best" would not be available in time and "best" never available at all. -- quote from wikipedia
+'''**
 
 # What we have volunteering part time
 - Doc reviewing our effort
@@ -93,4 +94,4 @@ Henry Watt from Britain during WW2 said --
 
 # System Diagram
 - Diagram is incomplete. Needs reviewing
-![Overall System Design](/System/SystemBlockDiagram4.jpg)
+![Overall System Design](System/SystemBlockDiagram4.jpg)
