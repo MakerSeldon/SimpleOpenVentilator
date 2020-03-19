@@ -6,10 +6,10 @@ The goal of this project is to demonstrate that a complex ventilator is possible
 What does a ventilator need to do in the simplest case. It needs to gently push air to lungs and assist with exhale. We can do this with a constant pressure source, a few valves, and the Venturi effect. We will not be worried about noise or efficiency.
 
 This simplest diagram shows and airsource, a valve that opens one side or the ether (L/R) allowing gas to pass vertially on that side. The left hand side flows air into the balloon. The right hand side allows air to leave the balloon, but assists the exhaust applying a slight vac to the output.
- 
+
 [Simple Diagram](Simple.jpg)
 
-
+.
 
  What is preventing more innovation in this field? Simply put -- lawye
 
