@@ -56,14 +56,14 @@ Responsible for overpressure protection. Fails in the OPEN position, meaning ent
 
 # [Ventilator Station](VentilatorStation/README.md)
 
-* \- *Tidal Air Measurement and Delivery*
+* \- *[Tidal Air Measurement and Delivery](Ventilator/TidalAirIN/README.md)*
       **Recieved Ambu+ bag in mail, Discovery TODO: lots**
-      
-* \- *Respiration Rate*
+
+* \- *[Respiration Rate](Ventilator/RespirationRate/README.md)*
       **RC bi-stable multi-vibrator with Relays and solenoids**
 
-* \- *Tidal Air Removal*
+* \- *[Tidal Air Removal](Ventilator/TidalAirOUT/README.md)*
       **Venturi Effect**
 
-* \- *Tidal Air Filtration*
+* \- *[Tidal Air Filtration](Ventilator/TidalAirFilter/README.md)*
       **Filter in a box with UV light**
