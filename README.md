@@ -48,7 +48,7 @@ Due to liability issues
 **No warranty of usefulness at all**
 # License
 Until we get further guidance the project is licensed as such:
-* CERN Open Hardware Licence Version 2 - Permissive [license](/license.md)
+* CERN Open Hardware Licence Version 2 - Permissive [license](Documents/license.md)
 
 # Donations
 If you want to donate to the project you may donate to a developer directly for parts etc:
