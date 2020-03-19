@@ -25,7 +25,8 @@ You need the following parts:
 - try and stuff the rest of the compression fitting on. You may have to trim the vac extension a bit more. If it doesn't go on you have another extension to try.
 - Assemble with the hose extension in one side and the 2" PVC on the other side.
 
-You know can blow air into the 2" pipe.
+You know can blow air into the 2" pipe. This picture just shows the coupler. 
+![Coupler](pvc_shop_vac_coupler.JPG)
 Pics and drawings to follow.
 
 *We have faith that you can do this one*  
