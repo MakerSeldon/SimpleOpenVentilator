@@ -1,22 +1,10 @@
 # Simple Open Ventilator
+
 **Lawyers: This project is to demonstrate the possibility**
 
-The goal of this project is to demonstrate that a complex ventilator is possible to build with nearly all hardware store parts. We are actually building one that can be demonstrated and tested. We are documenting our efforts here.
+**Goal: Build a demonstration ventilator with as many locally available parts as possible**
 
-What does a ventilator need to do in the simplest case. It needs to gently push air to lungs and assist with exhale. We can do this with a constant pressure source, a few valves, and the Venturi effect. We will not be worried about noise or efficiency.
-
-This simplest diagram shows and airsource, a valve that opens one side or the ether (L/R) allowing gas to pass vertially on that side. The left hand side flows air into the balloon. The right hand side allows air to leave the balloon, but assists the exhaust applying a slight vac to the output.
-
-![Simple Diagram](Simple.jpg)
-
-.
-
- What is preventing more innovation in this field? Simply put -- lawye
-
-We have to convert medical terms into regular physics and engineering terms for the design to move forward.
-
-
-
+Our [Main Page](../README.md) has the overall description and mission. These are describes the actual buildout of the system. 
 
 # Overall System Design
 **System Diagram**
