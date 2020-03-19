@@ -7,7 +7,7 @@ What does a ventilator need to do in the simplest case. It needs to gently push 
 
 This simplest diagram shows and airsource, a valve that opens one side or the ether (L/R) allowing gas to pass vertially on that side. The left hand side flows air into the balloon. The right hand side allows air to leave the balloon, but assists the exhaust applying a slight vac to the output.
 
-![Simple Diagram](Simple.jpg)
+![Simple Diagram](/System/Simple.jpg)
 
 
 
