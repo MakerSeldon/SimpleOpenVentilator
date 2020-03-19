@@ -1,3 +1,19 @@
+# [Ventilator Station](Ventilator/README.md)
+
+* \- *[Tidal Air Measurement and Delivery](Ventilator/TidalAirIN/README.md)*
+      **Recieved Ambu+ bag in mail, Discovery TODO: lots**
+
+* \- *[Respiration Rate](Ventilator/RespirationRate/README.md)*
+      **RC bi-stable multi-vibrator with Relays and solenoids**
+
+* \- *[Tidal Air Removal](Ventilator/TidalAirOUT/README.md)*
+      **Venturi Effect**
+
+* \- *[Tidal Air Filtration](Ventilator/TidalAirFilter/README.md)*
+      **Filter in a box with UV light**
+
+
+
 # Actuator
 Moving on to the squishing tool. We are going to use an ambu+ (accumulator) approach for the near term.
 
