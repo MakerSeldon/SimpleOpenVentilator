@@ -53,8 +53,7 @@ Responsible for overpressure protection. Fails in the OPEN position, meaning ent
 
 # [Individual Air Station](IndividualDistribution/README.md)
 * **Version 1.0 Designed TODO: Build, Test, Document**
-
-# [Ventilator Station](VentilatorStation/README.md)
+# [Ventilator Station](Ventilator/README.md)
 
 * \- *[Tidal Air Measurement and Delivery](Ventilator/TidalAirIN/README.md)*
       **Recieved Ambu+ bag in mail, Discovery TODO: lots**

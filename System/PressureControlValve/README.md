@@ -1,5 +1,7 @@
 # Pressure Control Valve
 
+**TODO: Version 3.0 Current Design -- Documentation Needs Posted**
+
 # Current Design
 
 The current design utilizes a more complicated design than I like, but it works.
@@ -38,8 +40,14 @@ Pressure control valve success today (16 Mar 20). maintained 24" with a 1/2 hole
 < insert better explanation >
 
 
-
 The pressure control valve and monitoring system is critical to the design operating as intended. The pressure controls the system and fills the accumulator that helps the patient breathe. So over-pressurization is bad but not terrible.
+
+# Version 3 / Experiment 3
+Slight changes in design to make changing weight easier, and more controlled hole drilling for airflow exit. Confirmed working with globe valve, manometer, and mark 1 eyeball. TODO: Post newest Desigs.
+
+
+# Verison 2 / Experiment 2
+[Original Sketch](PCVv2.jpg)
 
 # Version / Experiment 1
 The design has undergone the first iteration.
@@ -49,6 +57,3 @@ The original proposed design
 The monitoring system
 [As Drawn 2](/RawDesigns/psv_m_sketch.jpg)
 [As Drawn 2](/RawDesigns/psv_m_drawing.jpg)
-
-# Verison 2 / Experiment 2
-[Original Sketch](PCVv2.jpg)

@@ -9,6 +9,7 @@ Having a means of reliably measuring pressure is critical to the performance of 
 It is relatively easy to make a manometer, clear tubing and some water, but as I learned keeping the water out of the flow and in the tube is easy, but takes a bit of ingenuity. Mostly it just takes height.
 ![Simplified](simplifiedManometer.jpg)
 
+# TODO: Post most recent design. Down pipe removed. Clear tube in giant U. This way it can measure positive and negative from ambient pressure. 
 ----------
 Reality
 ![Working Manometer](manometer_success.jpg)
