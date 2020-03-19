@@ -12,10 +12,13 @@
 * \- *[Tidal Air Filtration](Ventilator/TidalAirFilter/README.md)*
       **Filter in a box with UV light**
 
+* \- *[Valve Control](Ventilator/ValveControl/README.md)*
+            **Filter in a box with UV light**
 
 
 # Actuator
 Moving on to the squishing tool. We are going to use an ambu+ (accumulator) approach for the near term.
+
 
 # Ambu Valve Schematic
 ![Schematic](Ambu_schematic.jpg)
