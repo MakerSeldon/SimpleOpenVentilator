@@ -1,4 +1,5 @@
 # Simple Open Ventilator
+
 **Lawyers: This project is to demonstrate the possibility**
 
 The goal of this project is to demonstrate that a complex ventilator is possible to build with nearly all hardware store parts. We are actually building one that can be demonstrated and tested. We are documenting our efforts here.
@@ -9,21 +10,45 @@ The diagram below shows the Fill and Exhaust states. During the Fill state a val
 
 ![Concept Diagram](/System/Images/ConceptDiagram.png)
 
+# Technical Constraints
+We have limits on the total volume, Respiration rate, and max pressure that can be applied to the balloon. The medical industry uses terms of art we need to convert to more traditional engineering terms.
 
+Tidal Volume -- Volume of air that needs to be pushed and pulled out of the balloon: 400-700mL. This is a reasonable amount. We can figure this out.
 
+Pressure mmHg -- Standard pressure measurement, but we like to work in PSI.
+40mmHg == 0.77PSI. This is too small for our normal measuring tools. We need a way to work with this. Mercury is hard to get and poisonous, we will use water.
+1mmHg = 0.535776 inH2O, or about 1.3cmH2O very doable and easy.
 
-# OpenVert -
-Open Source, Open Hardware experimental design for home built ventilator for learning about how they work. We take learning very seriously. Our system design and build can be seen:
+Respiration Rate -- Fill, wait, exhaust cycles. We call this hysteresis. Simple control problems. 5-30 breaths per minute.
 
----------
- # [System Design and Documentation](System/README.md)
-Progress of current build out. Not a lot of software, it is Physics based.
+# Tunable values
+* Tidal Volume 400mL to 600mL
+* Respiration Rates 5-30 cycles/min
+* Pressure 40mmHg to 60mmHg (21.4 inH2O --> 32 inH2O = Delta 10.6 inches)
+
+# Construction Constraints / Mission
+We know we can spend money and time to make very nice ventilators. What can we do when we need many more than can be manufactured in a hurry? Can we leverage local tradesman talent and supplies? If we assume our normal scientific supply chain is broken or too slow we have to move to distributed manufacturing with what is in stock. Our group is taking the Apollo 13 approach. What is available in the local stores, and what can local craftsmen construct? Can this be completed with all in stock parts from a local hardware store?  
+
+# Tasks:
+* *Create a system absolutely as simple as possible*
+* Create a constant low pressure high volume air supply
+* Create Safety system to reduce injuries
+* Create measurement system
+* Develop and Test Prototype System
+* Document prototype system
+
+-----------
+#Progress of current build out. Not a lot of software, it is Physics based.
+ [Current Progress](System/README.md)
 
 
 ----------
 # Disclaimer
 Due to liability issues
 **No warranty of usefulness at all**
+# License
+Until we get further guidance the project is licensed as such:
+* CERN Open Hardware Licence Version 2 - Permissive [license](/license.md)
 
 # Donations
 If you want to donate to the project you may donate to a developer directly for parts etc:
@@ -36,11 +61,8 @@ Or you can done to a 501(c)3
 [(ABSOG)](https://threesecondsuntilmidnight.com/absog/)
 They are working on a direct donation page.
 
-# License
-Until we get further guidance the project is licensed as such:
-* CERN Open Hardware Licence Version 2 - Permissive [license](/license.md)
 
-# Motivation
+# Why are we doing this?
 COVID-19 has exposed a critical shortage in our medical care capabilities, and supply chain. (REF Italy doc report). Throwing money at the vendors to produce more and faster is unlikely to work in serious world-wide pandemic where supply-chains are shut down, the need for ventilators vastly outstrips the manufacturing capability, or quarantine simply shuts down transportation.
 
 
@@ -50,11 +72,7 @@ The total number of ventilators available is around 600-800k(1). Of the total ve
 (1) Based on off the record conversations with USG officials.
 
 # Mission Statement
-Our guiding principle is the same of Henry Watt's approach to development of Radar for Britian in WW2
-- Perfect is the enemy of good enough and never gets here.
-- Second best is always too late.
-- Third best will do
-
+Henry Watt from Britain during WW2 said --
 '''Watt: The system was deliberately developed using existing commercially available technology to speed introduction.[60] The development team could not afford the time to develop and debug new technology. Watt, a pragmatic engineer, believed "third-best" would do if "second-best" would not be available in time and "best" never available at all. -- quote from wikipedia
 '''
 
@@ -67,51 +85,12 @@ Our guiding principle is the same of Henry Watt's approach to development of Rad
 # What we need
 - Documentation help
 - Fabrication duplication
-- Imagineers
+- Imagineers / Fabricators
 - Nurses / PA's
 - Makers to help
 - Funding for parts & help
-- Bitcoin Account for donations
-- Accounting Method to show expenditures
+
 
 # System Diagram
 - Diagram is incomplete. Needs reviewing
-![Overall System Design](/RawDesigns/openventsystemdiagram.jpg)
-
-# Mass Casualty Ventilator system
-
-COVID-19 has exposed a critical shortage in our medical care capabilities, and supply chain. (REF Italy doc report). Throwing money at the vendors to produce more and faster is unlikely to work in serious world-wide pandemic where supply-chains are shut down, the need for ventilators vastly outstrips the manufacturing capability, or quarantine simply shuts down transportation.
-
-We have a nation of makers, builders, engineers, scientists, and handy people. We need to be able to leverage all of them. We are designing and building a prototype ventilator that can be built from locally available parts. This is meant to spur the innovation that has been stifled by attorneys, government regulation, and fear.
-
-We are using locally sourced parts, our local home improvement store, plumbing store, and party store should carry everything you need.
-
------------
-
-What is a ventilator:
-
-At the core a ventilator is a device that assists the breathing in a compromised patient.
-
-Mechanically, it is a device that provides slightly elevated air pressure for assistance for inhaling and slightly lower pressure air for exhaling.
-
-We will start with the constant problem – coughing / sneezing are problems we need to keep in mind but are tomorrow problems – worst case we supply a blow off valve for over pressure
-
-------------
-What we need – as absolutely as simple as possible. Mechanical preferred for field repair.
-
-1)	Low Pressure source (2psi – 103mmhg)
-2)	Clean air – Free of particles, and contaminates
-3)	Pressure regulator for individual patients
-4)	Method to deliver air at a slightly elevated pressure
-5)	Method to meter the total air volume delivered per inhale breath
-6)	Method to assist exhale at slightly lower pressure
-7)	Method to meter total air volume exhaled
-8)	Method to capture and clean exhaled air
-
-
----------------
-Guidance Received to date:
-From Board Certified Anesthesiologist
-* Ideal Tidal Volumes 500-700mL
-* Peek Pressure shouldn't exceed 40mmhg, ability to push 60mmhg
-* suction is bad -- Need verification of neg pressure vs suction
+![Overall System Design](/System/SystemBlockDiagram4.jpg)
