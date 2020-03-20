@@ -9,7 +9,8 @@ What does a ventilator need to do in the simplest case. It needs to gently push 
 The diagram below shows the Fill and Exhaust states. During the Fill state a valve opens (V1) filling the balloon. During the next state, V1 closes and V2 opens. The air flow for V2 is configured such that a slight negative pressure from ambient is applied to the balloon with a Venturi effect. Normally, this is unnecessary as the balloon will return to flat. But in this case the balloon has a damp sponge in it. This makes returning to the rest state difficult.
 
 ![Concept Diagram](/System/Images/ConceptDiagram.png)
-
+![Peep Concept](/System/Ventilator/PeepDiagram.jpg)
+  )
 # Technical Constraints
 We have limits on the total volume, Respiration rate, and max pressure that can be applied to the balloon. The medical industry uses terms of art we need to convert to more traditional engineering terms.
 
