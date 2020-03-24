@@ -2,6 +2,22 @@
 
 **Lawyers: This project is to demonstrate the possibility**
 
+
+-----
+# **Update**
+Most of the system running.
+Current configuration has an Arduino with a relay running the control circuit. The circuit is really simple and can be assembled many ways.
+
+* Current issue --
+* Washer 120v solenoid actuated valve works fine with the duty cycle, but is just way too small. This could be overcome with adding pressure (Voltage and pressure are similar). And the orifice in the valve is equivalent to resistance, but then the working air pressure is not-patient safe.
+
+# Two non-HD parts currently
+* Controller Circuit
+  \- Can be build easily enough PWM signal.
+* Electrically Controlled Valve
+  \- Electric over hydraulic valves should work. Not at HD, but locally acquirable. From all sorts of hydraulic / farm systems.
+
+
 The goal of this project is to demonstrate that a complex ventilator is possible to build with nearly all hardware store parts. We are actually building one that can be demonstrated and tested. We are documenting our efforts here.
 
 What does a ventilator need to do in the simplest case. It needs to gently push air to lungs and assist with exhale. We can do this with a constant pressure source, a few valves, and the Venturi effect. We will not be worried about noise or efficiency.
