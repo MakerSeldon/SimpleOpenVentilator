@@ -25,13 +25,10 @@ What does a ventilator need to do in the simplest case. It needs to gently push 
 The diagram below shows the Fill and Exhaust states. During the Fill state a valve opens (V1) filling the balloon. During the next state, V1 closes and V2 opens.
 
 #**NEED DOC CLARIFICATION**
-## Concept 1
-The air flow for V2 is configured such that a slight negative pressure from ambient is applied to the balloon with a Venturi effect. Normally, this is unnecessary as the balloon will return to flat. But in this
-This makes returning to the rest state difficult.
-## Concept 2
+
+## Concept v2 : v1 was incorrect
 If the a positive pressure is applied inside the chest cavity ie. blood, injury or other. then the normal range of motion is impeded. An output pressure regulator (PEEP valve) is needed to keep a slight positive pressure to overcome during exhale.
 
-![Concept Diagram](/System/Images/ConceptDiagram.png)
 ![Peep Concept](/System/Ventilator/PeepDiagram.jpg)
 
 # Technical Constraints
