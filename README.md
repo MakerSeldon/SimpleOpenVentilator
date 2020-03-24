@@ -31,6 +31,8 @@ If the a positive pressure is applied inside the chest cavity ie. blood, injury 
 
 ![Peep Concept](/System/Ventilator/PeepDiagram.jpg)
 
+![Progress To Date](Progress24Mar.jpg)
+
 # Technical Constraints
 We have limits on the total volume, Respiration rate, and max pressure that can be applied to the balloon. The medical industry uses terms of art we need to convert to more traditional engineering terms.
 
