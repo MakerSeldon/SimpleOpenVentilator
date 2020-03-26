@@ -9,6 +9,7 @@ Our [Main Page](../README.md) has the overall description and mission. These are
 # Overall System Design
 **System Diagram**
 **Under Development -- Not accurate yet**
+More [Diagrams](Diagrams/README.md) under development
 ![System Block Diagram](SystemBlockDiagram4.png)
 
 # Major Blocks of the Design
@@ -62,7 +63,7 @@ Responsible for overpressure protection. Fails in the OPEN position, meaning ent
       **RC bi-stable multi-vibrator with Relays and solenoids**
 
 * \- *Peep Valve
-      A valve that keeps the lungs at max exhale slightly higher pressure than ambient. To keep lungs fully inflated and keep from collapsing. 
+      A valve that keeps the lungs at max exhale slightly higher pressure than ambient. To keep lungs fully inflated and keep from collapsing.
 
 
 
