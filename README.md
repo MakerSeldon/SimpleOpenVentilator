@@ -1,6 +1,11 @@
 # [Simple Open Ventilator](System/README.md)
+# [Description Document](System/COVIDventv3Seldon.pdf)
 
 **Lawyers: This project is to demonstrate the possibility**
+* The material on this site is provided with no warranties explicit or implied.
+* No material on this site is intended to provide medical advice. All designs are intended for investigational use only.
+* The Department of Health and Human Services (DHHS) has declared [liability immunity](https://www.fda.gov/regulatory-information/laws-enforced-fda/federal-food-drug-and-cosmetic-act-fdc-act) for medical countermeasures against COVID-19.
+This site does not represent any official policies or procedures of anybody.
 
 
 -----
@@ -113,10 +118,3 @@ Henry Watt from Britain during WW2 said --
 - Nurses / PA's
 - Makers to help
 - Funding for parts & help
-
-
-# System Diagram
-- Diagram is incomplete. Needs reviewing
-![Overall System Design](System/SystemBlockDiagram4.png)
-
-Test edit
