@@ -1,13 +1,16 @@
-# [Simple Open Ventilator](System/README.md)
-# [Description Document](System/COVIDventv3Seldon.pdf)
+* [Simple Open Ventilator](System/README.md)
+* [Description Document](System/COVIDventv3Seldon.pdf)
 
 **Lawyers: This project is to demonstrate the possibility**
 * The material on this site is provided with no warranties explicit or implied.
 * No material on this site is intended to provide medical advice. All designs are intended for investigational use only.
 * The Department of Health and Human Services (DHHS) has declared [liability immunity](https://www.fda.gov/regulatory-information/laws-enforced-fda/federal-food-drug-and-cosmetic-act-fdc-act) for medical countermeasures against COVID-19.
-This site does not represent any official policies or procedures of anybody.
-
-
+* This site does not represent any official policies or procedures of anybody.
+* [ref 1](https://www.phe.gov/Preparedness/legal/prepact/Pages/COVID19.aspx)
+* [ref 2](https://www.policymed.com/2020/03/hhs-issues-declaration-exempting-some-from-liability-related-to-covid-19-preparedness.html)
+* [ref 3](https://www.modernhealthcare.com/legal/azar-extends-liability-immunity-fight-against-covid-19)
+* [ref 4](https://s3.amazonaws.com/public-inspection.federalregister.gov/2020-05484.pdf)
+* [Federal Register](https://www.federalregister.gov/documents/2020/03/17/2020-05484/declaration-under-the-public-readiness-and-emergency-preparedness-act-for-medical-countermeasures)
 -----
 # **Update**
 Most of the system running.
