@@ -11,6 +11,7 @@ Our [Main Page](../README.md) has the overall description and mission. These are
 **Under Development -- Not accurate yet**
 More [Diagrams](Diagrams/README.md) under development
 ![System Block Diagram](SystemBlockDiagram4.png)
+[Word Document](System/COVIDventv3Seldon.pdf) 
 
 # Major Blocks of the Design
 * **Air Pressure Delivery:** Generate enough clean Air Flow and Pressure for system
