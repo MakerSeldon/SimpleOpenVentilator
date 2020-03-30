@@ -1,6 +1,7 @@
 * [Simple Open Ventilator](System/README.md)
 * [Description Document](System/COVIDventv3Seldon.pdf)
 * [UK Rapid Vent link](https://www.gov.uk/government/publications/coronavirus-covid-19-ventilator-supply-specification/rapidly-manufactured-ventilator-system-specification)
+* [Vulcan Rapid Vent Requirements](vulcan.pdf)
 
 **Lawyers: This project is to demonstrate the possibility**
 * The material on this site is provided with no warranties explicit or implied.
@@ -12,6 +13,9 @@
 * [ref 3](https://www.modernhealthcare.com/legal/azar-extends-liability-immunity-fight-against-covid-19)
 * [ref 4](https://s3.amazonaws.com/public-inspection.federalregister.gov/2020-05484.pdf)
 * [Federal Register](https://www.federalregister.gov/documents/2020/03/17/2020-05484/declaration-under-the-public-readiness-and-emergency-preparedness-act-for-medical-countermeasures)
+-----
+## Funding opportunity
+* Hospital challenge [Canada](https://www.agorize.com/en/challenges/code-life-challenge/pages/guidelines?lang=en)
 -----
 # **Update**
 Most of the system running.
