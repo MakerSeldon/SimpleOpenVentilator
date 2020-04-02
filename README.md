@@ -3,6 +3,8 @@
 Here we are providing an OPEN SOURCE, OPEN DESIGN, OPEN HARDWARE design.
 
 [Donate Here](https://www.gofundme.com/f/simple-open-ventilator-design?utm_source=customer&utm_medium=copy_link-tip&utm_campaign=p_cp+share-sheet)
+
+
 *Introduction:*
 Team Seldon is producing plans and prototypes of a ventilator that can be built by tradespeople across the planet from locally obtainable materials. You can see our progress to date:
 
