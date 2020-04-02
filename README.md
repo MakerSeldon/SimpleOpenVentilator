@@ -2,6 +2,7 @@
 ---------------------------
 Here we are providing an OPEN SOURCE, OPEN DESIGN, OPEN HARDWARE design.
 
+We have some people raising money for us. The fundraisers couldn't stay anonymous.
 [Donate Here](https://www.gofundme.com/f/simple-open-ventilator-design?utm_source=customer&utm_medium=copy_link-tip&utm_campaign=p_cp+share-sheet)
 
 
