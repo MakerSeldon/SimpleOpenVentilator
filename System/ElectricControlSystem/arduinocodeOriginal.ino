@@ -32,7 +32,7 @@
 const int ledPin =  11;// the number of the LED pin
 const int INRelayPin =  10;// the number of the LED pin
 const int OUTRelayPin =  9;// the number of the LED pin
-const int EXHAUSTRelayPin =  9;// the number of the LED pin
+const int EXHAUSTRelayPin =  6;// the number of the LED pin
 
 // Variables will change:
 int ledState = LOW;             // ledState used to set the LED
@@ -60,7 +60,7 @@ void setup() {
   digitalWrite(ledPin, LOW);
   digitalWrite(INRelayPin, HIGH);
   digitalWrite(OUTRelayPin, LOW);
-  digitalWrite(EXHAUSTRelayPin, LOW);
+  digitalWrite(EXHAUSTRelayPin, HIGH);
 
 }
 
@@ -88,20 +88,20 @@ void loop() {
     ledState = HIGH;     //Turn LED on
     INRelayState = HIGH; //Open INput valve
     OUTRelayState = LOW; //Close OUTput valve
-    EXHAUSTRelayState = LOW; //Close OUTput valve
+    EXHAUSTRelayState = INRelayState; //Close OUTput valve
     } 
     else{
        ledState = LOW;
        INRelayState =LOW;
        OUTRelayState =HIGH;
-       EXHAUSTRelayState =HIGH;
+       EXHAUSTRelayState =INRelayState;
     }
     // set the LED with the ledState of the variable:
     // writes on every loop
     digitalWrite(ledPin, ledState);
     digitalWrite(INRelayPin, INRelayState);
     digitalWrite(OUTRelayPin, OUTRelayState);
-    digitalWrite(EXHAUSTRelayPin, OUTRelayState);
+    digitalWrite(EXHAUSTRelayPin, EXHAUSTRelayState);
     
   
 }
