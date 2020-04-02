@@ -1,7 +1,7 @@
 # **Electromechanical Control systems**
 -----------
 The System is driven by a very simple control system.
-
+![As Built](AsBuilt.jpg)
 # Mechanical
 3 Valves
 
