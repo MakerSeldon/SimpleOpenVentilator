@@ -13,6 +13,8 @@ The System is driven by a very simple control system.
 # Current State:
 Control circuit timing is fixed currently. Can be changed by uploading new code with updated constants
 ![State Diagram](StateDiagram.jpg)
+![State Variable Chart](Refined_page2.jpg)
+![Timing Chart](TimingChart.jpg)
 
 # TODO:
 * Add 2 Potentiometer inputs to vary Pulse width and Period
