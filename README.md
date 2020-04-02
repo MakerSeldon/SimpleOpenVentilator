@@ -1,50 +1,41 @@
-* [Simple Open Ventilator](System/README.md)
+# Simple Open Ventilator
+---------------------------
+Here we are providing an OPEN SOURCE, OPEN DESIGN, OPEN HARDWARE design.
+
+*Introduction:*
+Team Seldon is producing plans and prototypes of a ventilator that can be built by tradespeople across the planet from locally obtainable materials. You can see our progress to date:
+
+https://github.com/MakerSeldon/SimpleOpenVentilator -- The page is a bit of a mess.
+I am currently the main builder and Tester. The Hydraulic design engineer is sending pictures of plans that I put into action
+
+The most recent video of progress to date.
+![youtube link](https://youtu.be/Anu_NY6iPGQ)
+https://github.com/MakerSeldon/SimpleOpenVentilator/LatestVideo.MOV
+
+ <insert picture and logo> -- Want to make us a logo?
+ -----------------------
+# Documentation and Designs
+* [Simple Open Ventilator](System/README.md) - This is the main tree for the designs. We are trying to keep it updated
 * [Description Document](System/COVIDventv3Seldon.pdf)
+
+------------------
+# Design Requests and Requirements
 * [UK Rapid Vent link](https://www.gov.uk/government/publications/coronavirus-covid-19-ventilator-supply-specification/rapidly-manufactured-ventilator-system-specification)
 * [Vulcan Rapid Vent Requirements](vulcan.pdf)
 
-**Lawyers: This project is to demonstrate the possibility**
-* The material on this site is provided with no warranties explicit or implied.
-* No material on this site is intended to provide medical advice. All designs are intended for investigational use only.
-* The Department of Health and Human Services (DHHS) has declared [liability immunity](https://www.fda.gov/regulatory-information/laws-enforced-fda/federal-food-drug-and-cosmetic-act-fdc-act) for medical countermeasures against COVID-19.
-* This site does not represent any official policies or procedures of anybody.
-* [ref 1](https://www.phe.gov/Preparedness/legal/prepact/Pages/COVID19.aspx)
-* [ref 2](https://www.policymed.com/2020/03/hhs-issues-declaration-exempting-some-from-liability-related-to-covid-19-preparedness.html)
-* [ref 3](https://www.modernhealthcare.com/legal/azar-extends-liability-immunity-fight-against-covid-19)
-* [ref 4](https://s3.amazonaws.com/public-inspection.federalregister.gov/2020-05484.pdf)
-* [Federal Register](https://www.federalregister.gov/documents/2020/03/17/2020-05484/declaration-under-the-public-readiness-and-emergency-preparedness-act-for-medical-countermeasures)
------
-## Funding opportunity
-* Hospital challenge [Canada](https://www.agorize.com/en/challenges/code-life-challenge/pages/guidelines?lang=en)
------
-# **Update**
-Most of the system running.
-Current configuration has an Arduino with a relay running the control circuit. The circuit is really simple and can be assembled many ways.
+-------------
+# Progress to date:
+Version 0.89 Complete -- Documentation and Testing underway, PEEP still to be implmented. Exhaust side leaking too much.
 
-* Current issue --
-* Washer 120v solenoid actuated valve works fine with the duty cycle, but is just way too small. This could be overcome with adding pressure (Voltage and pressure are similar). And the orifice in the valve is equivalent to resistance, but then the working air pressure is not-patient safe.
+**This morning we just completed a fully operational system. Our pressure checks look good, but we still need to measure tidal volumes and implement PEEP.**
 
-# Two non-HD parts currently
-* Controller Circuit
-  \- Can be build easily enough PWM signal.
-* Electrically Controlled Valve
-  \- Electric over hydraulic valves should work. Not at HD, but locally acquirable. From all sorts of hydraulic / farm systems.
+We are 90% of our goal of being able to create this from all Home Improvement Parts. The controller circuit uses an Arduino and relays we had laying around. Code is posted, circuit is coming.
 
-
-The goal of this project is to demonstrate that a complex ventilator is possible to build with nearly all hardware store parts. We are actually building one that can be demonstrated and tested. We are documenting our efforts here.
-
-What does a ventilator need to do in the simplest case. It needs to gently push air to lungs and assist with exhale. We can do this with a constant pressure source, a few valves, and the Venturi effect. We will not be worried about noise or efficiency.
-
-The diagram below shows the Fill and Exhaust states. During the Fill state a valve opens (V1) filling the balloon. During the next state, V1 closes and V2 opens.
-
-#**NEED DOC CLARIFICATION**
-
-## Concept v2 : v1 was incorrect
-If the a positive pressure is applied inside the chest cavity ie. blood, injury or other. then the normal range of motion is impeded. An output pressure regulator (PEEP valve) is needed to keep a slight positive pressure to overcome during exhale.
+# TODO:
 
 ![Peep Concept](/System/Ventilator/PeepDiagram.jpg)
 
-![Progress To Date](Progress24Mar.jpg)
+![Progress To Date](Progress.jpg)
 
 # Technical Constraints
 We have limits on the total volume, Respiration rate, and max pressure that can be applied to the balloon. The medical industry uses terms of art we need to convert to more traditional engineering terms.
@@ -126,3 +117,22 @@ Henry Watt from Britain during WW2 said --
 - Nurses / PA's
 - Makers to help
 - Funding for parts & help
+
+
+-----
+# Disclaimer Section
+**Lawyers: This project is to demonstrate the possibility**
+* The material on this site is provided with no warranties explicit or implied.
+* No material on this site is intended to provide medical advice. All designs are intended for investigational use only.
+* The Department of Health and Human Services (DHHS) has declared [liability immunity](https://www.fda.gov/regulatory-information/laws-enforced-fda/federal-food-drug-and-cosmetic-act-fdc-act) for medical countermeasures against COVID-19.
+* This site does not represent any official policies or procedures of anybody.
+* [ref 1](https://www.phe.gov/Preparedness/legal/prepact/Pages/COVID19.aspx)
+* [ref 2](https://www.policymed.com/2020/03/hhs-issues-declaration-exempting-some-from-liability-related-to-covid-19-preparedness.html)
+* [ref 3](https://www.modernhealthcare.com/legal/azar-extends-liability-immunity-fight-against-covid-19)
+* [ref 4](https://s3.amazonaws.com/public-inspection.federalregister.gov/2020-05484.pdf)
+* [Federal Register](https://www.federalregister.gov/documents/2020/03/17/2020-05484/declaration-under-the-public-readiness-and-emergency-preparedness-act-for-medical-countermeasures)
+-----
+## Missed Funding opportunity
+* Hospital challenge [Canada](https://www.agorize.com/en/challenges/code-life-challenge/pages/guidelines?lang=en)
+
+-----
