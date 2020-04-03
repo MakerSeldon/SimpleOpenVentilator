@@ -15,23 +15,21 @@ More [Diagrams](Diagrams/README.md) under development
 
 # Major Blocks of the Design
 **Note: some of these links are not complete yet**
-| Component|Design Status|Prototype Status|
-|---|---|---|
-|[ **Air Source** ](AirSource/README.md)| Complete|Complete|
-|[ **Pressure Relief Valve**](PressureRelief/README.md)|Complete|Testing|
----
-* [ **Air Filter Source**](AirFilter/README.md) -- **Design**
-* [ **Pressure Control Valve**](PressureControlValve/README.md) -- **In Use**
-* [ **Pressure Gauge Header**](LowPressureManometer/README.md) **In Use**
+
+* [ **Air Source** ](AirSource/README.md)
+* [ **Pressure Relief Valve**](PressureRelief/README.md)
+* [ **Air Filter Source**](AirFilter/README.md)
+* [ **Pressure Control Valve**](PressureControlValve/README.md)
+* [ **Pressure Gauge Header**](LowPressureManometer/README.md)
 * [ **Distribution Header** ](Distribution/README.md)
 * [ **Branch Outlet**](Distribution/README.md)
 * [ **Flow Control Valve**](Distribution/README.md)
 * [ **Time Control Solenoid -INLET**](/Valve/README.md)
 * [ **Pressure Gauge - Patient** ](/LowPressureManometer/README.md)
-* [ **VOLUME/PRESSURE Control Device](/PACMAN/README.md)
+* [ **VOLUME/PRESSURE Control Device**](/PACMAN/README.md)
 * [ **Time Control Solenoid -PATIENT**](/Valve/README.md)
 * [ **Pressure Gauge - Patient** ](/LowPressureManometer/README.md)
-* [ **Patient -- Specifcations**](/Patient/README.md)
+* [ **Patient -- Specifications**](/Patient/README.md)
 * [ **Time Control Solenoid -EXHAUST**](/Valve/README.md)
 * [ **Air Filter Exhaust**](/AirFilter/README.md)
 * [ **Pressure Control Valve - PEEP**](/PEEP/README.md)
