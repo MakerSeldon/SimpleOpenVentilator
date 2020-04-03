@@ -1,4 +1,4 @@
-# [Simple Open Ventilator](System/README.md)
+# [Simple Open Ventilator](System/README.md)<-- Design Details
 ---------------------------
 Here we are providing an OPEN SOURCE, OPEN DESIGN, OPEN HARDWARE design.
 
