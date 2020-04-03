@@ -31,7 +31,22 @@ replaces the human with a very nice robust mechanical squasher that can deliver
 repeated precise performance. The squasher should outlast the bag easily. Fabrication
 should easily be in the 1000's per week depending on bag and motor availability.*
 
- 
+# Developing and testing the highest risk (PCV)
+The hypothesis that we could use a shop vac (blower side) to power the system had
+to be developed first. A shop vac is a constant power device. Meaning if the
+input or output becomes partially blocked the pressure increases and the flow decreases.
+We needed a constant pressure system. To accomplish this we needed a way to measure
+the pressure to even start.
+
+# Manometer development
+The medical folks we talked with before the Vulcan Challenge came out told us that
+we needed to maintain between 40-60mmHg. Mercury is a bit challenging and difficult
+to obtain and use safely. Luckily for us 1mmHg is just over 1/2" H2O. 60mmHg is 32.15".
+
+A manometer is just a U shaped tube filled with a fluid. In our case it was water.
+18" on both sides gives us a possible 36" of height measurement. We started with less
+and sent water squirting across the lab it really needs to be 24" tall to get good
+differential measurements.  
 
 
 
