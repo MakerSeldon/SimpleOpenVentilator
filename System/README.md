@@ -35,6 +35,7 @@ More [Diagrams](Diagrams/README.md) under development
 * [ **Air Filter Exhaust**](/AirFilter/README.md)
 * [ **Pressure Control Valve - PEEP**](/PEEP/README.md)
 * [ **Electronic Control System**](/Controls/README.md)
+* [ **Bill Of Materials ](/BuildInfo/README.md) -- Current cost 422.80
 ---------
 # **Ventilator Station -- Design Requirements**
 * \- *Tidal Air Measurement and Delivery*
@@ -47,6 +48,10 @@ More [Diagrams](Diagrams/README.md) under development
 # **Test and Measurement**
 * [Tidal Volume](TestMeasurement/README.md)
 
+
+---------
+# Lessons Learned
+* [ Lessons Learned ](Bloopers/README.md)
 
 
 # [Air Source](AirPressureDelivery/README.md)
