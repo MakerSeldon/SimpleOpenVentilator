@@ -1,5 +1,26 @@
 # Design Notes  & Lessons Learned
 
+During the design, build, iteration, and documentation of this system, we have
+learned a multitude of lessons. We believe the basic theory, and functionality
+of the system complete. As with any system there is always room for improvement,
+but version 1.0 is considered complete. If further funding is provided
+further testing and refinement for additional field tailoring would be explored
+
+If version 2.0 is commissioned. We believe creating a industrial WOG valve system
+would be significantly more robust, and easy to produce. As this is a safety of
+life system the control system would remain simple and robust. Reducing the size
+to something portable could be accomplished in 30-45 days. Two paths would be
+appropriate with 2 design teams.
+* Continue down the field expedient path trading off robustness for capability
+* Design the system more robustly while exploring parts in the supply chain.
+
+The first option would still enable tradespeople to fabricate the systems. The second
+option may require some manufacturing fabrication techniques and specialty parts.
+
+
+-----
+#Lessons Learned
+
 ## Gravity: Our Friend --
 In designing the system we understood that each of the trades groups would be on
 their own building these systems. There would be no one to provide oversight and
@@ -178,37 +199,57 @@ the system. Basic functionality was checked by manually plugging and unplugging
 the power to each valve. We quickly moved to electrical control.
 
 # Electrical Control system
----
-## Initial Build
-The initial build started with the hypothesis that assisted breathing can't be
-that hard. We should be able to use a reasonably low cost device to provide automated
-breathing assistance.
+The valves that were selected are 120V solenoid driven valves. When voltage is applied
+the valve opens, otherwise they are normally closed to prevent water flow. A more
+traditional WOG poppet valve would be better, but those are not available at local
+hardware stores or readily scavenged. We are using a microcontroller in place of
+analog mono-stable multivibrator (PWM circuit) that could be built from several
+dimmer knobs, caps, power supply and 2 relays. We will detail that in the future.
+
+As this is a system that needs to be highly reliable, we selected one of the simplest
+microcontrollers that is readily available, the lowly Arduino. The valves only
+need to be opened and closed for specific time periods. Details are
+[here.](../ElectroMechanicalControlSystem/README.md) This portion went really well
+as expected with a bunch of EE's and ET's on the job. Simple is BEST!
+
+Next on the agenda is adding variability in the period - **Breaths per minute** -
+and inspiration time - **Pulse Width**. And adding a dwell - **Breath Hold** - time
+using simple potentiometers and 7 segment displays. Keeping it very simple.
 
 
-During the same time frame we were developing the manometer and the pressure control
-valve. Testing the PCV and the manometer worked 100% -- Rock stable pressure.
-We successfully transformed a constant power source into a constant pressure source
-using a linear (lossy) PCV.
+# Test and Measurement:
 
-Combining the filter, manometer, and PCV showed that the cardboard box was not
-going to work it leaked 95% of all the pressure down. Followup calculations show that
-a wooden crate with significant reinforcement was going to be required to keep the
-filter box nearly airtight.
+Accurate field testing needs to be completed to calibrate these systems built in
+the field.
+
+* **Pressure Testing** -- Manometers are very simple for pressure checks. Measurement with
+yardsticks or meter sticks are sufficient. We can put a yardstick in it and record
+the video to check max pressure and plot pressure profile
+
+* **Volumetric testing** -- Attempting to measure individual tidal values is a fools
+errand. The system moves slow enough to test using averaging techniques. For this
+step we needed another accumulator of known volume. Then we attached it to the patient
+output of the system. We start with the bag empty, evacuated, and flat. We then
+turn on the system. After the system is stable 1-5 cycles, we open the temporary
+valve connecting the patient output to the bag. We then observe the bag and count
+the number of cycles to fully inflate the bag.
+
+For example we have an 8L bag. It takes 12 cycles to fully inflate the bag.
+
+8L / 12 cycles = (8/12) L/cycle ~ 666mL per cycle with weight (x LBS)
+
+Our desired tidal Volume is 400-700mL. We are smack in the middle.
+
+* **Volumetric Error**
+Assuming that your estimation is either -1 or +1 on the count of fully inflated
+8L / 11 cycles = (8/11) 720mL  8.1% error
+8L / 12 cycles = (8/12) 666mL
+8L / 13 cycles = (8/13) 615mL  7.6% error
+
+To reduce the error using a much larger vessel will reduce the percentage error.
 
 
-## Accumulator
-We received a Ambu+ Bag as a donation for this effort. The bag has multiple safety
-features, valves. We believed this would make a fantastic accumulator. We tested the
-bag initially by jamming a 1/2" PVC pipe in the intake side and seeing if we could
-inflate the bag safely.
+* **Tidal Timing**  -- We control this at the millisecond level. Verification
+is performed the same way -- count for 1 min and record.
 
-≈
-
-This makes the system
- Now with a inheritly pressure safe system
-
-The initial build started as a way to squish an ambu+ bag. The bag is an approved
-medical device designed to manually assist breathing.
-
-The initial experiments
-trying to fill the bag with forced air
+* **PEEP** -- Measured with manometer
