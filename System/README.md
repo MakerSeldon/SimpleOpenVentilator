@@ -51,7 +51,7 @@ More [Diagrams](Diagrams/README.md) under development
 
 ---------
 # Lessons Learned
-* [ Lessons Learned ](Bloopers/README.md)
+* [ Lessons Learned ](Lessons/README.md)
 
 
 # [Air Source](AirPressureDelivery/README.md)
