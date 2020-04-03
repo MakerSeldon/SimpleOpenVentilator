@@ -14,18 +14,41 @@ More [Diagrams](Diagrams/README.md) under development
 [Word Document](System/COVIDventv3Seldon.pdf)
 
 # Major Blocks of the Design
-* **Air Pressure Delivery:** Generate enough clean Air Flow and Pressure for system
-* **Air Filtration:** Filter the air for use
-* **Pressure Measurement Tool** Manometer to measure pressure
-* **Pressure Control Valve** Keep Constant pressure between 21.4 inH2O and 32 inH2O
-* **Pressure Relief Valve** Over Pressure Safety Valve
-* **Air Pressure Distribution** Move the air around
-* **Individual Station Air Tap**
-* **Ventilator Station**
+**Note: some of these links are not complete yet**
+|Major Block | Status|
+|------------|-------|
+| derp | testing|
+-------
+* [ **Air Source** ](AirSource/README.md)
+* [ **Pressure Relief Valve**](PressureRelief/README.md)
+* [ **Air Filter Source**](AirFilter/README.md)
+* [ **Pressure Control Valve**](PressureControlValve/README.md)
+* [ **Pressure Gauge Header**](LowPressureManometer/README.md)
+* [ **Distribution Header** ](Distribution/README.md)
+* [ **Branch Outlet**](Distribution/README.md)
+* [ **Flow Control Valve**](Distribution/README.md)
+* [ **Time Control Solenoid -INLET**](/Valve/README.md)
+* [ **Pressure Gauge - Patient** ](/LowPressureManometer/README.md)
+* [ **VOLUME/PRESSURE Control Device](/PACMAN/README.md)
+* [ **Time Control Solenoid -PATIENT**](/Valve/README.md)
+* [ **Pressure Gauge - Patient** ](/LowPressureManometer/README.md)
+* [ **Patient -- Specifcations**](/Patient/README.md)
+* [ **Time Control Solenoid -EXHAUST**](/Valve/README.md)
+* [ **Air Filter Exhaust**](/AirFilter/README.md)
+* [ **Pressure Control Valve - PEEP**](/PEEP/README.md)
+* [ **Electronic Control System**](/Controls/README.md)
+---------
+# **Ventilator Station -- Design Requirements**
 * \- *Tidal Air Measurement and Delivery*
 * \- *Respiration Rate*
 * \- *Tidal Air Removal*
 * \- *Tidal Air Filtration*
+
+
+---------
+# **Test and Measurement**
+* [Tidal Volume](TestMeasurement/README.md)
+
 
 
 # [Air Source](AirPressureDelivery/README.md)
