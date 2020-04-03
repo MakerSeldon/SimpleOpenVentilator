@@ -151,7 +151,6 @@ During testing it bounced too much
 Weight required for squashing and thin laminate flexed and bounced too much.  
 
 
- The Ambu+ bag showed us that we needed to make a automates bellows.
 
 
 ---
