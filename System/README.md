@@ -15,11 +15,7 @@ More [Diagrams](Diagrams/README.md) under development
 
 # Major Blocks of the Design
 **Note: some of these links are not complete yet**
-|Major Block | Status|
-|------------|-------|
-| derp | testing|
--------
-* [ **Air Source** ](AirSource/README.md)
+|* [ **Air Source** ](AirSource/README.md)| Complete|
 * [ **Pressure Relief Valve**](PressureRelief/README.md)
 * [ **Air Filter Source**](AirFilter/README.md)
 * [ **Pressure Control Valve**](PressureControlValve/README.md)
