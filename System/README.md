@@ -7,8 +7,8 @@ DISCLAIMER -- See main Page [../README.md] **Lawyers: This project is to demonst
 Our [Main Page](../README.md) has the overall description and mission. These pages describe the actual buildout of the system. With sufficient information for anyone to copy.
 
 # Overall System Design
-**System Diagram: As currently Implmented**
-![System Block Diagram](CurrentBlockDiagram.png)
+**System Diagram: As currently Implemented**
+![System Block Diagram](CurrentBlockDiagram2.png)
 -----------
 
 More [Diagrams](Diagrams/README.md) under development
