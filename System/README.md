@@ -15,11 +15,12 @@ More [Diagrams](Diagrams/README.md) under development
 
 # Major Blocks of the Design
 **Note: some of these links are not complete yet**
-| Component|Status|
+| Component|Design Status|Prototype Status|
 |---|---|
-|* [ **Air Source** ](AirSource/README.md)| Complete|
+|[ **Air Source** ](AirSource/README.md)| Complete|Complete|
 ----
-* [ **Pressure Relief Valve**](PressureRelief/README.md)
+|[ **Pressure Relief Valve**](PressureRelief/README.md)|Complete|Testing|
+---
 * [ **Air Filter Source**](AirFilter/README.md)
 * [ **Pressure Control Valve**](PressureControlValve/README.md)
 * [ **Pressure Gauge Header**](LowPressureManometer/README.md)
