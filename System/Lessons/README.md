@@ -151,8 +151,33 @@ During testing it bounced too much
 Weight required for squashing and thin laminate flexed and bounced too much.  
 
 
+## Valving
+Now that we had pressure control, measurement capability, and an accumulator. It was
+time to move to controlling the accumulator. We initially checked basic functionality
+with manual valves. Turning them one at a time to see results. We had positive outcome.
+It was time for electrically controlled valves.
 
+We examined a multitude of possibilities.
+* Our goto was Grainger for industrial WOG (Water, Oil, Gas) valves, but with a cost over
+$100 each that was going to bust the budget.
+* Irrigation valves were a possibility, but they are gear driven ball valves. They
+are not potable water safe, and they are too slow.
+* New touch valves for kitchen sinks, but the cost was prohibitive again.
 
+One of our engineers was driving when the spotted an appliance repair shop. The
+shop had a generic Hot/Cold water valve for a dishwasher. We bought a couple of
+used ones and a new one for experimentation. The valves have a garden hose fittings
+on the input side and a clamp bib on the output.
+
+We installed one and checked basic flow. It worked. Later we would find out that
+some valves have check valves that that have to be drilled out. But more importantly
+the valve are directional. Input must come in garden side and out crimp side.
+
+We also found later that we needed both Hot and Cold to get enough flow to operate
+the system. Basic functionality was checked by manually plugging and unplugging
+the power to each valve. We quickly moved to electrical control.
+
+# Electrical Control system
 ---
 ## Initial Build
 The initial build started with the hypothesis that assisted breathing can't be
