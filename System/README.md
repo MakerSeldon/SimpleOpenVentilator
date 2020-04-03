@@ -1,9 +1,10 @@
 # Simple Open Ventilator
-# **Goal: Build a demonstration ventilator with as many locally available parts as possible**
+*Introduction:*
+Team Seldon is producing plans and prototypes of a ventilator that can be built by tradespeople across the planet from locally obtainable materials. You can see our progress to date:
+
 
 DISCLAIMER -- See main Page [../README.md] **Lawyers: This project is to demonstrate the possibility**
-
-Our [Main Page](../README.md) has the overall description and mission. These are describes the actual buildout of the system.
+Our [Main Page](../README.md) has the overall description and mission. These pages describe the actual buildout of the system. With sufficient information for anyone to copy.
 
 # Overall System Design
 **System Diagram: As currently Implmented**
