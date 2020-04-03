@@ -1,17 +1,17 @@
 # Simple Open Ventilator
+# **Goal: Build a demonstration ventilator with as many locally available parts as possible**
 
-**Lawyers: This project is to demonstrate the possibility**
-
-**Goal: Build a demonstration ventilator with as many locally available parts as possible**
+DISCLAIMER -- See main Page [../README.md] **Lawyers: This project is to demonstrate the possibility**
 
 Our [Main Page](../README.md) has the overall description and mission. These are describes the actual buildout of the system.
 
 # Overall System Design
-**System Diagram**
-**Under Development -- Not accurate yet**
-More [Diagrams](Diagrams/README.md) under development
+**System Diagram: As currently Implmented**
 ![System Block Diagram](CurrentBlockDiagram.png)
-[Word Document](System/COVIDventv3Seldon.pdf)
+-----------
+
+More [Diagrams](Diagrams/README.md) under development
+[Document](System/COVIDventv3Seldon.pdf) detailing efforts so far.
 
 # Major Blocks of the Design
 **Note: some of these links are not complete yet**
