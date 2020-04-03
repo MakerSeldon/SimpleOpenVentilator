@@ -20,9 +20,9 @@ More [Diagrams](Diagrams/README.md) under development
 |[ **Air Source** ](AirSource/README.md)| Complete|Complete|
 |[ **Pressure Relief Valve**](PressureRelief/README.md)|Complete|Testing|
 ---
-* [ **Air Filter Source**](AirFilter/README.md)
-* [ **Pressure Control Valve**](PressureControlValve/README.md)
-* [ **Pressure Gauge Header**](LowPressureManometer/README.md)
+* [ **Air Filter Source**](AirFilter/README.md) -- **Design**
+* [ **Pressure Control Valve**](PressureControlValve/README.md) -- **In Use**
+* [ **Pressure Gauge Header**](LowPressureManometer/README.md) **In Use**
 * [ **Distribution Header** ](Distribution/README.md)
 * [ **Branch Outlet**](Distribution/README.md)
 * [ **Flow Control Valve**](Distribution/README.md)
