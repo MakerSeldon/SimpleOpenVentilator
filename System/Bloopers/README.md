@@ -46,8 +46,12 @@ to obtain and use safely. Luckily for us 1mmHg is just over 1/2" H2O. 60mmHg is 
 A manometer is just a U shaped tube filled with a fluid. In our case it was water.
 18" on both sides gives us a possible 36" of height measurement. We started with less
 and sent water squirting across the lab it really needs to be 24" tall to get good
-differential measurements.  
+differential measurements. We added food coloring to make the measurements that
+much easier. We went through several designs, before landing on the final one that
+is super simple, low cost ($35 for 3) and highly accurate.
 
+**Manometer is necessary, otherwise we are just guessing, and likely to injure someone**   
+________
 
 
 
