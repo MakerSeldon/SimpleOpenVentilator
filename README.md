@@ -1,45 +1,47 @@
-# [Simple Open Ventilator](System/README.md)<-- Design Details
----------------------------
-Here we are providing an OPEN SOURCE, OPEN DESIGN, OPEN HARDWARE design.
+# [Simple Open Ventilator](System/README.md)
+--------------------------
+## Updates:
+4/3/2020:
+**Tidal volumes look good around 650mL per breath**
+* TODO: PEEP
+* TODO: Vary Tidal Volume
+* TODO: Capture Tidal Volume, Mass, Speed variation in a chart
+* TODO: Write up Test procedures
 
-We have some people raising money for us. The fundraisers couldn't stay anonymous.
-[Donate Here](https://www.gofundme.com/f/simple-open-ventilator-design?utm_source=customer&utm_medium=copy_link-tip&utm_campaign=p_cp+share-sheet)
+## **Introduction:**
+Team Seldon is producing plans and prototypes of a ventilator that can be built by tradespeople across the planet from locally obtainable materials. The design is OPEN SOURCE, OPEN DESIGN, and OPEN HARDWARE. You can find all of our progress here. If you want to help please contact  - seldonenterprises@protonmail.com. Full details of the build out are [here](/System/README.md)
 
 
-*Introduction:*
-Team Seldon is producing plans and prototypes of a ventilator that can be built by tradespeople across the planet from locally obtainable materials. You can see our progress to date:
-
-https://github.com/MakerSeldon/SimpleOpenVentilator -- The page is a bit of a mess.
-I am currently the main builder and Tester. The Hydraulic design engineer is sending pictures of plans that I put into action
+Starting with the Block Diagram:
+![System Block Diagram](System/CurrentBlockDiagram2.png)
+![Picture Under Test](Progress.jpg)
 
 The most recent video of progress to date.
 [youtube link](https://youtu.be/Anu_NY6iPGQ)
 [.MOV link](https://github.com/MakerSeldon/SimpleOpenVentilator/LatestVideo.MOV)
 
- <insert picture and logo> -- Want to make us a logo?
- -----------------------
-# Documentation and Designs
-* [Simple Open Ventilator](System/README.md) - This is the main tree for the designs. We are trying to keep it updated
-* [Description Document](System/COVIDventv3Seldon.pdf)
+We have a paper we are trying to keep up, but it is a few steps behind the github site - [Description Document](System/COVIDventv3Seldon.pdf)
+
+We also have a lessons learned [page](/System/Lessons/README.md)
 
 ------------------
 # Design Requests and Requirements
-* [UK Rapid Vent link](https://www.gov.uk/government/publications/coronavirus-covid-19-ventilator-supply-specification/rapidly-manufactured-ventilator-system-specification)
+Several groups have come out with design guidelines and requests. We have captured a few of them here. #OSventilator will have more info
 * [Vulcan Rapid Vent Requirements](vulcan.pdf)
+* [UK Rapid Vent link](https://www.gov.uk/government/publications/coronavirus-covid-19-ventilator-supply-specification/rapidly-manufactured-ventilator-system-specification)
+* [Canada](https://www.agorize.com/en/challenges/code-life-challenge/pages/guidelines?lang=en)
 
 -------------
 # Progress to date:
 Version 0.89 Complete -- Documentation and Testing underway, PEEP still to be implmented. Exhaust side leaking too much.
 
-**This morning we just completed a fully operational system. Our pressure checks look good, but we still need to measure tidal volumes and implement PEEP.**
 
 We are 90% of our goal of being able to create this from all Home Improvement Parts. The controller circuit uses an Arduino and relays we had laying around. Code is posted, circuit is coming.
 
 # TODO:
-
 ![Peep Concept](/System/Ventilator/PeepDiagram.jpg)
 
-![Progress To Date](Progress.jpg)
+--------------
 
 # Technical Constraints
 We have limits on the total volume, Respiration rate, and max pressure that can be applied to the balloon. The medical industry uses terms of art we need to convert to more traditional engineering terms.
@@ -60,27 +62,15 @@ We have limits on the total volume, Respiration rate, and max pressure that can 
 # Construction Constraints / Mission
 We know we can spend money and time to make very nice ventilators. What can we do when we need many more than can be manufactured in a hurry? Can we leverage local tradesman talent and supplies? If we assume our normal scientific supply chain is broken or too slow we have to move to distributed manufacturing with what is in stock. Our group is taking the Apollo 13 approach. What is available in the local stores, and what can local craftsmen construct? Can this be completed with all in stock parts from a local hardware store?  
 
-# Tasks:
+# Original Tasks:
 * **Create a system absolutely as simple as possible**
-* Create a constant low pressure high volume air supply
-* Create Safety system to reduce injuries
-* Create measurement system
-* Develop and Test Prototype System
-* Document prototype system
-
------------
-#Progress of current build out. Not a lot of software, it is Physics based.
- [Current Progress](System/README.md)
-
+* **Create a constant low pressure high volume air supply**
+* **Create Safety system to reduce injuries**
+* **Create measurement system**
+* **Develop and Test Prototype System**
+* **Document prototype system**
 
 ----------
-# Disclaimer
-Due to liability issues
-**No warranty of usefulness at all**
-# License
-Until we get further guidance the project is licensed as such:
-* CERN Open Hardware Licence Version 2 - Permissive [license](Documents/license.md)
-
 # Donations
 If you want to donate to the project you may donate to a developer directly for parts etc:
 ```
@@ -90,7 +80,7 @@ BTC: 12VbmzcMsj5VtiCuqSdMPihkLPt9UEqHfd
 Or you can done to a 501(c)3
 **The Asymmetrical Biodiversity Studies and Observation Group**
 [(ABSOG)](https://threesecondsuntilmidnight.com/absog/)
-They are working on a direct donation page.
+They are working on a direct donation page on GoFundMe
 
 
 # Why are we doing this?
@@ -126,6 +116,8 @@ Henry Watt from Britain during WW2 said --
 -----
 # Disclaimer Section
 **Lawyers: This project is to demonstrate the possibility**
+Due to liability issues
+**No warranty of usefulness at all**
 * The material on this site is provided with no warranties explicit or implied.
 * No material on this site is intended to provide medical advice. All designs are intended for investigational use only.
 * The Department of Health and Human Services (DHHS) has declared [liability immunity](https://www.fda.gov/regulatory-information/laws-enforced-fda/federal-food-drug-and-cosmetic-act-fdc-act) for medical countermeasures against COVID-19.
@@ -135,8 +127,8 @@ Henry Watt from Britain during WW2 said --
 * [ref 3](https://www.modernhealthcare.com/legal/azar-extends-liability-immunity-fight-against-covid-19)
 * [ref 4](https://s3.amazonaws.com/public-inspection.federalregister.gov/2020-05484.pdf)
 * [Federal Register](https://www.federalregister.gov/documents/2020/03/17/2020-05484/declaration-under-the-public-readiness-and-emergency-preparedness-act-for-medical-countermeasures)
------
-## Missed Funding opportunity
-* Hospital challenge [Canada](https://www.agorize.com/en/challenges/code-life-challenge/pages/guidelines?lang=en)
 
------
+------
+# License
+Until we get further guidance the project is licensed as such:
+* CERN Open Hardware Licence Version 2 - Permissive [license](Documents/license.md)
