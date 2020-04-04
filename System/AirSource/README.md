@@ -17,4 +17,6 @@ volume to drive the system.
 |        40           | 700mL - 0.7L | 28.0L / min|
 
 
-The current Air source is a 14 Gal Shop Vac It has plenty of 
+The current Air source is a 14 Gal Shop Vac It has plenty of Pressure and Volume
+
+![Shop Vac](ShopVac.jpg)
