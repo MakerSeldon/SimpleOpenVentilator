@@ -8,8 +8,7 @@
 * TODO: Write up Test procedures
 
 *Introduction:*
-Team Seldon is producing plans and prototypes of a ventilator that can be built
-by tradespeople across the planet from locally obtainable materials.
+Team Seldon is producing plans and prototypes of a ventilator that can be built by tradespeople across the planet from locally obtainable materials.
 
 # Progress:
 The block diagram shows our progress to date. Green Blocks are designed built and under test
