@@ -5,7 +5,7 @@ Requirements for the air source is that it delivers sufficient air pressure and
 volume to drive the system.
 
 -----------------
-Tiny Bit of Math
+# Total Tidal Volume Calculations
 
 | Breaths per minute  | Tidal Volume  | L / min |
 |---------------------|---------------|---------|
@@ -15,3 +15,6 @@ Tiny Bit of Math
 |        12           | 700mL - 0.7L | 8.4L / min|
 |        40           | 400mL - 0.4L | 16.0L / min|
 |        40           | 700mL - 0.7L | 28.0L / min|
+
+
+The current Air source is a 14 Gal Shop Vac It has plenty of 
