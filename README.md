@@ -13,8 +13,8 @@ https://github.com/MakerSeldon/SimpleOpenVentilator -- The page is a bit of a me
 I am currently the main builder and Tester. The Hydraulic design engineer is sending pictures of plans that I put into action
 
 The most recent video of progress to date.
-![youtube link](https://youtu.be/Anu_NY6iPGQ)
-https://github.com/MakerSeldon/SimpleOpenVentilator/LatestVideo.MOV
+[youtube link](https://youtu.be/Anu_NY6iPGQ)
+[.MOV link](https://github.com/MakerSeldon/SimpleOpenVentilator/LatestVideo.MOV)
 
  <insert picture and logo> -- Want to make us a logo?
  -----------------------
