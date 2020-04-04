@@ -28,7 +28,7 @@ We also have a lessons learned [page](/System/Lessons/README.md)
 # Design Requests and Requirements
 Several groups have come out with design guidelines and requests. We have captured a few of them here. #OSventilator will have more info
 
-* [Vulcan Rapid Vent Requirements](Documents/VULCAN.md)
+* [Vulcan Rapid Vent Requirements](Documents/VulcanREQ.md)
 * [UK Rapid Vent link](https://www.gov.uk/government/publications/coronavirus-covid-19-ventilator-supply-specification/rapidly-manufactured-ventilator-system-specification)
 * [Canada](https://www.agorize.com/en/challenges/code-life-challenge/pages/guidelines?lang=en)
 
