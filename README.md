@@ -33,13 +33,11 @@ Several groups have come out with design guidelines and requests. We have captur
 
 -------------
 # Progress to date:
-Version 0.89 Complete -- Documentation and Testing underway, PEEP still to be implmented. Exhaust side leaking too much.
+Version 0.89 Complete -- Documentation and Testing underway, PEEP still to be implemented. Exhaust side leaking too much.
 
 
 We are 90% of our goal of being able to create this from all Home Improvement Parts. The controller circuit uses an Arduino and relays we had laying around. Code is posted, circuit is coming.
 
-# TODO:
-![Peep Concept](/System/Ventilator/PeepDiagram.jpg)
 
 --------------
 
