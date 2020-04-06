@@ -1,3 +1,6 @@
 # Air Distribution
-![Distribution](BackFlowValve/AirDistribution.jpg)
+
+![Distribution](AirDistribution.jpg?style=centerme)
+
+
 **TODO: Pictures,Assembly Instructions**

@@ -1,5 +1,7 @@
 # [Simple Open Ventilator](System/README.md)
+
 --------------------------
+
 ## Updates:
 4/3/2020:
 **Tidal volumes look good around 650mL per breath**
@@ -13,7 +15,9 @@ Team Seldon is producing plans and prototypes of a ventilator that can be built 
 
 
 Starting with the Block Diagram:
-![System Block Diagram](System/CurrentBlockDiagram2.png)
+
+![System Block Diagram](./System/CurrentBlockDiagram2.png){ width=250px}
+
 ![Picture Under Test](Progress.jpg)
 
 The most recent video of progress to date.
@@ -24,7 +28,7 @@ We have a paper we are trying to keep up, but it is a few steps behind the githu
 
 We also have a lessons learned [page](/System/Lessons/README.md)
 
-------------------
+
 # Design Requests and Requirements
 Several groups have come out with design guidelines and requests. We have captured a few of them here. #OSventilator will have more info
 
@@ -32,7 +36,6 @@ Several groups have come out with design guidelines and requests. We have captur
 * [UK Rapid Vent link](https://www.gov.uk/government/publications/coronavirus-covid-19-ventilator-supply-specification/rapidly-manufactured-ventilator-system-specification)
 * [Canada](https://www.agorize.com/en/challenges/code-life-challenge/pages/guidelines?lang=en)
 
--------------
 # Progress to date:
 Version 0.89 Complete -- Documentation and Testing underway, PEEP still to be implemented. Exhaust side leaking too much.
 
@@ -40,7 +43,6 @@ Version 0.89 Complete -- Documentation and Testing underway, PEEP still to be im
 We are 90% of our goal of being able to create this from all Home Improvement Parts. The controller circuit uses an Arduino and relays we had laying around. Code is posted, circuit is coming.
 
 
---------------
 
 # Technical Constraints
 We have limits on the total volume, Respiration rate, and max pressure that can be applied to the balloon. The medical industry uses terms of art we need to convert to more traditional engineering terms.
@@ -69,7 +71,6 @@ We know we can spend money and time to make very nice ventilators. What can we d
 * **Develop and Test Prototype System**
 * **Document prototype system**
 
-----------
 # Donations
 If you want to donate to the project you may donate to a developer directly for parts etc:
 ```
@@ -112,7 +113,6 @@ Henry Watt from Britain during WW2 said --
 - Funding for parts & help
 
 
------
 # Disclaimer Section
 **Lawyers: This project is to demonstrate the possibility**
 Due to liability issues
@@ -127,7 +127,7 @@ Due to liability issues
 * [ref 4](https://s3.amazonaws.com/public-inspection.federalregister.gov/2020-05484.pdf)
 * [Federal Register](https://www.federalregister.gov/documents/2020/03/17/2020-05484/declaration-under-the-public-readiness-and-emergency-preparedness-act-for-medical-countermeasures)
 
-------
+
 # License
 Until we get further guidance the project is licensed as such:
 * CERN Open Hardware Licence Version 2 - Permissive [license](Documents/license.md)

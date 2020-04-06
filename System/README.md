@@ -16,11 +16,15 @@ The block diagram shows our progress to date. Green Blocks are designed built an
 
 # Overall System Design
 **System Diagram: As currently Implemented**
-![System Block Diagram](CurrentBlockDiagram2.png)
+
+![System Block Diagram](System/CurrentBlockDiagram2.png)
+
 -----------
 
 More [Diagrams](Diagrams/README.md) under development
-[Document](System/COVIDventv3Seldon.pdf) detailing efforts so far.
+[Document](COVIDventv3Seldon.pdf) detailing efforts so far.
+
+-----------
 
 # Major Blocks of the Design
 **Note: some of these links are not complete yet**
@@ -54,15 +58,18 @@ More [Diagrams](Diagrams/README.md) under development
 
 
 ---------
+
 # **Test and Measurement**
 * [Tidal Volume](TestMeasurement/README.md)
 * [Pressure](TestMeasurement/README.md)
 
 
 ---------
+
 # Lessons Learned
 * [ Lessons Learned ](Lessons/README.md)
 
+------------
 
 #DISCLAIMER --
 See main Page [../README.md] **Lawyers: This project is to demonstrate the possibility**
