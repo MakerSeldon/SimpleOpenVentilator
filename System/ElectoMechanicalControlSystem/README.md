@@ -1,22 +1,29 @@
 # **Electromechanical Control systems**
------------
+
 The System is driven by a very simple control system.
-![As Built](AsBuilt.jpg)
-# Mechanical
+
+![As Built](System/ElectoMechanicalControlSystem/AsBuilt.jpg)
+
+## Mechanical
 3 Valves
 
-# Electrical
+## Electrical
 1 arudino uno
 3 relays
 
 ---------------
-# Current State:
-Control circuit timing is fixed currently. Can be changed by uploading new code with updated constants
-![State Diagram](StateDiagram.jpg)
-![State Variable Chart](Refined_page2.jpg)
-![Timing Chart](TimingChart.jpg)
 
-# TODO:
+## Current State:
+Control circuit timing is fixed currently. Can be changed by uploading new code with updated constants
+
+![State Diagram](System/ElectoMechanicalControlSystem/StateDiagram.jpg)
+
+![State Variable Chart](System/ElectoMechanicalControlSystem/Refined_page2.jpg)
+
+![Timing Chart](System/ElectoMechanicalControlSystem/TimingChart.jpg)
+
+## TODO:
+
 * Add 2 Potentiometer inputs to vary Pulse width and Period
 * Add display showing timing for each
 * Add safety stops for out of bounds

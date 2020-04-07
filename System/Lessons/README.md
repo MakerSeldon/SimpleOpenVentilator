@@ -18,10 +18,9 @@ The first option would still enable tradespeople to fabricate the systems. The s
 option may require some manufacturing fabrication techniques and specialty parts.
 
 
------
-#Lessons Learned
+## Lessons Learned
 
-## Gravity: Our Friend --
+### Gravity: Our Friend --
 In designing the system we understood that each of the trades groups would be on
 their own building these systems. There would be no one to provide oversight and
 calibrations. We had to keep the designs as simple as possible, and as accurate as
@@ -29,6 +28,7 @@ possible. We chose gravity, mass, and air pressure as the main methods of contro
 for the systems. Below is a summation of our impressions:
 
 Basic system concepts
+
 * Only readily available and substitutable parts
 * Gravity -- pretty constant +/- small error across the planet
 * Mass -- based on gravity
@@ -40,7 +40,7 @@ Basic system concepts
 
 **Calibration labs use gravity based instrumentation**
 
-# Concept 1:
+### Concept 1:
 The initial concept was to build a pneumatic system that would inflate a manual
 assist medical ventilation bag automatically. We joined the #OSventilator movement
 and saw that was already being taken care of with multiple different efforts. We
@@ -52,14 +52,14 @@ replaces the human with a very nice robust mechanical squasher that can deliver
 repeated precise performance. The squasher should outlast the bag easily. Fabrication
 should easily be in the 1000's per week depending on bag and motor availability.*
 
-# Developing and testing the highest risk items: (PCV & Measurement)
+### Developing and testing the highest risk items: (PCV & Measurement)
 The hypothesis that we could use a shop vac (blower side) to power the system had
 to be developed first. A shop vac is a constant power device. Meaning if the
 input or output becomes partially blocked the pressure increases and the flow decreases.
 We needed a constant pressure system. To accomplish this we needed a way to measure
 the pressure to even start.
 
-# Manometer development
+## Manometer development
 The medical folks we talked with before the Vulcan Challenge came out told us that
 we needed to maintain between 40-60mmHg. Mercury is a bit challenging and difficult
 to obtain and use safely. Luckily for us 1mmHg is just over 1/2" H2O. 60mmHg is 32.15".
@@ -71,9 +71,8 @@ differential measurements. We added food coloring to make the measurements that
 much easier. We went through several designs, before landing on the final one that
 is super simple, low cost ($35 for 3) and highly accurate.
 
-________
+
 **Manometer is necessary, otherwise we are just guessing, and likely to injure someone**   
-________
 
 ## Pressure Control Valve
 We went through multiple iterations. We knew what we needed to build. A weight
@@ -112,7 +111,9 @@ using cardboard, tape, shower drain fittings, and a HEPA filter.
 We placed a manometer on the input and output of the cardboard filter box. It was
 basically a super lossy filter. Input pressure was a nice 30 inH2O, output pressure
 was around 4 inH2O. This was a failed experiment
+
 Output:
+
 * Shower Drain assemblies make good I/O ports as they are 2"
 * Our manometers work nicely
 * Filters need to be assembled like crates with the structure on the outside.
@@ -133,7 +134,7 @@ of this as an automated bellows. The Ambu+ bag is designed to work just that way
 We examined the build of the bag and noticed the complex network of mechanical
 valves that make the bag work, and keep the patient safe.
 
-Experiment 1:
+### Experiment 1:
 We were going to use the Ambu+ bag as the accumulator. We tried it by stuffing the
 1/2" pipe in the input side and blew air constantly, pumping the bag up nicely.
 We needed something that would squash the bag reliably. The bag is shaped like
@@ -144,11 +145,11 @@ After Version 1 of PACMAN was complete, We attempted to use the Ambu+ bag, but c
 not get it to reliably fill as the input side of the bag had too many relief valves.
 And we couldn't get a good enough seal to lift the weight.
 
-Experiment 2:
+### Experiment 2:
 Replacement of Ambu+ bag with Turkey Roasting bag. We fabricated a seal with two
 PVC plumbing parts, a 2" coupler and a 2" to 3/4 Reducer. This worked remarkably well.
 
-Experiment 3:
+### Experiment 3:
 Replacement of turkey bag with water bag. This gave us a more robust bag and a bit more
 control. This what is currently being used.
 
@@ -179,6 +180,7 @@ with manual valves. Turning them one at a time to see results. We had positive o
 It was time for electrically controlled valves.
 
 We examined a multitude of possibilities.
+
 * Our goto was Grainger for industrial WOG (Water, Oil, Gas) valves, but with a cost over
 $100 each that was going to bust the budget.
 * Irrigation valves were a possibility, but they are gear driven ball valves. They
@@ -198,7 +200,7 @@ We also found later that we needed both Hot and Cold to get enough flow to opera
 the system. Basic functionality was checked by manually plugging and unplugging
 the power to each valve. We quickly moved to electrical control.
 
-# Electrical Control system
+## Electrical Control system
 The valves that were selected are 120V solenoid driven valves. When voltage is applied
 the valve opens, otherwise they are normally closed to prevent water flow. A more
 traditional WOG poppet valve would be better, but those are not available at local
@@ -212,12 +214,16 @@ need to be opened and closed for specific time periods. Details are
 [here.](../ElectroMechanicalControlSystem/README.md) This portion went really well
 as expected with a bunch of EE's and ET's on the job. Simple is BEST!
 
-Next on the agenda is adding variability in the period - **Breaths per minute** -
-and inspiration time - **Pulse Width**. And adding a dwell - **Breath Hold** - time
+Next on the agenda is adding variability
+
+* Period - **Breaths per minute**
+* Pulse Width - **Inspiration time**
+* Dwell time - **Breath Hold**
+
 using simple potentiometers and 7 segment displays. Keeping it very simple.
 
 
-# Test and Measurement:
+## Test and Measurement:
 
 Accurate field testing needs to be completed to calibrate these systems built in
 the field.
@@ -235,9 +241,7 @@ valve connecting the patient output to the bag. We then observe the bag and coun
 the number of cycles to fully inflate the bag.
 
 For example we have an 8L bag. It takes 12 cycles to fully inflate the bag.
-
 8L / 12 cycles = (8/12) L/cycle ~ 666mL per cycle with weight (x LBS)
-
 Our desired tidal Volume is 400-700mL. We are smack in the middle.
 
 * **Volumetric Error**

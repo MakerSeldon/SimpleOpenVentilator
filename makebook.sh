@@ -1,0 +1,20 @@
+pandoc -o SimpleVent.pdf title.txt \
+  README.md \
+  System/README.md \
+  System/AirDistrubution/README.md \
+  System/AirFilter/README.md \
+  System/AirPressureDelivery/README.md \
+  System/AirSource/README.md \
+  System/AmbuBag/README.md \
+  System/Diagrams/README.md \
+  System/ElectoMechanicalControlSystem/README.md \
+  System/IndividualDistribution/README.md \
+  System/Lessons/README.md \
+  System/LowPressureManometer/README.md \
+  System/LungSimulator/README.md \
+  System/PressureControlValve/README.md \
+  System/PressureDistribution/README.md \
+  System/PressureRelief/README.md \
+  Documents/VulcanREQ.md \
+  Documents/README.md \
+  Documents/license.md \
