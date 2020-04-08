@@ -17,7 +17,7 @@ The block diagram shows our progress to date. Green Blocks are designed built an
 # Overall System Design
 **System Diagram: As currently Implemented**
 
-![System Block Diagram](System/CurrentBlockDiagram2.png)
+![System Block Diagram](CurrentBlockDiagram2.png)
 
 -----------
 

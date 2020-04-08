@@ -16,7 +16,7 @@ Team Seldon is producing plans and prototypes of a ventilator that can be built 
 
 Starting with the Block Diagram:
 
-![System Block Diagram](./System/CurrentBlockDiagram2.png){ width=250px}
+![System Block Diagram](CurrentBlockDiagram2.png){ width=250px}
 
 ![Picture Under Test](Progress.jpg)
 

@@ -1,11 +1,11 @@
 # Filter v2
 
 Basically, it is crate built with all the cleats on the outside.  There are four inside to hold the filter.
-![Drawing 1](System/AirFilter/Drawing1.jpg)
+![Drawing 1](Drawing1.jpg)
 
-![Drawing 2](System/AirFilter/Drawing2.jpg)
+![Drawing 2](Drawing2.jpg)
 
-![Drawing 3](System/AirFilter/Drawing3.jpg)
+![Drawing 3](Drawing3.jpg)
 
 The sides should see 500lb total force. Screws have about 100lb pull out so it shouldn't spontaneously dis-assemble.
 

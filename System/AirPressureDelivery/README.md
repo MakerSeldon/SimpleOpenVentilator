@@ -27,6 +27,6 @@ You need the following parts:
 
 You know can blow air into the 2" pipe. This picture just shows the coupler.
 
-![Coupler](System/AirPressureDelivery/pvc_shop_vac_coupler.JPG)
+![Coupler](pvc_shop_vac_coupler.JPG)
 
 *We have faith that you can do this one*  

@@ -1,5 +1,5 @@
 # Air Distribution
 
-![Distribution](Images/AirDistrubution/AirDistribution.jpg)
+![Distribution](AirDistribution.jpg)
 
 **TODO: Pictures,Assembly Instructions**

@@ -2,7 +2,7 @@
 
 The System is driven by a very simple control system.
 
-![As Built](System/ElectoMechanicalControlSystem/AsBuilt.jpg)
+![As Built](AsBuilt.jpg)
 
 ## Mechanical
 3 Valves
@@ -16,11 +16,11 @@ The System is driven by a very simple control system.
 ## Current State:
 Control circuit timing is fixed currently. Can be changed by uploading new code with updated constants
 
-![State Diagram](System/ElectoMechanicalControlSystem/StateDiagram.jpg)
+![State Diagram](StateDiagram.jpg)
 
-![State Variable Chart](System/ElectoMechanicalControlSystem/Refined_page2.jpg)
+![State Variable Chart](Refined_page2.jpg)
 
-![Timing Chart](System/ElectoMechanicalControlSystem/TimingChart.jpg)
+![Timing Chart](TimingChart.jpg)
 
 ## TODO:
 

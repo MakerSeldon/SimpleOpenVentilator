@@ -9,7 +9,7 @@ Gravity, air pressure can equal out. If the air flow can leak out we can maintai
 
 We are moving from theoretical to practical. We have too many unknowns to fully calculate the absolute correct mass, but we did just build a [Low Pressure Manometer](System/LowPressureManometer/README.md). We know from <calculation reference> that our approx weight desired for a pressure of 40mmHg is about 2.5lbs. So We are going to build the following.
 
-![Weight Assembly Drawing](System/PressureControlValve/PCVv3.png)
+![Weight Assembly Drawing](PCVv3.png)
 
 Then put this on a 4' vertical 1.5" PVC Stand Pipe.
 
@@ -45,7 +45,7 @@ Slight changes in design to make changing weight easier, and more controlled hol
 
 
 ## Verison 2 / Experiment 2
-[Original Sketch](System/PressureControlValve/PCVv2_sketch.jpg)
+![Original Sketch](PCVv2_sketch.jpg)
 
 ## Version / Experiment 1
 The design has undergone the first iteration.
