@@ -25,4 +25,5 @@ pandoc -o SimpleVent.pdf title.txt \
   --variable geometry:a4paper \
   --variable number-sections \
   --table-of-contents \
+  --reference-links \
   --pdf-engine=pdflatex \
