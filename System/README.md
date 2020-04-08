@@ -71,5 +71,5 @@ More [Diagrams](Diagrams/README.md) under development
 
 ------------
 
-#DISCLAIMER --
-See main Page [../README.md] **Lawyers: This project is to demonstrate the possibility**
+# DISCLAIMER --
+See main [Page](../README.md) **Lawyers: This project is to demonstrate the possibility**
