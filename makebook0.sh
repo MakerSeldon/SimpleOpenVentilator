@@ -1,23 +1,23 @@
 pandoc -o SimpleVent.pdf title.txt \
-  README.md \
-  System/README.md \
-  System/AirDistrubution/README.md \
-  System/AirFilter/README.md \
-  System/AirPressureDelivery/README.md \
-  System/AirSource/README.md \
-  System/AmbuBag/README.md \
-  System/Diagrams/README.md \
-  System/ElectoMechanicalControlSystem/README.md \
-  System/IndividualDistribution/README.md \
-  System/Lessons/README.md \
-  System/LowPressureManometer/README.md \
-  System/LowPressureManometer/README.md \
-  System/PressureControlValve/README.md \
-  System/PressureDistribution/README.md \
-  System/PressureRelief/README.md \
-  Documents/VulcanREQ.md \
-  Documents/README.md \
-  Documents/license.md \
+  README.md.pandoc \
+  System/README.md.pandoc \
+  System/AirDistrubution/README.md.pandoc \
+  System/AirFilter/README.md.pandoc \
+  System/AirPressureDelivery/README.md.pandoc \
+  System/AirSource/README.md.pandoc \
+  System/AmbuBag/README.md.pandoc \
+  System/Diagrams/README.md.pandoc \
+  System/ElectoMechanicalControlSystem/README.md.pandoc \
+  System/IndividualDistribution/README.md.pandoc \
+  System/Lessons/README.md.pandoc \
+  System/LowPressureManometer/README.md.pandoc \
+  System/LowPressureManometer/README.md.pandoc \
+  System/PressureControlValve/README.md.pandoc \
+  System/PressureDistribution/README.md.pandoc \
+  System/PressureRelief/README.md.pandoc \
+  Documents/VulcanREQ.md.pandoc \
+  Documents/README.md.pandoc \
+  Documents/license.md.pandoc \
   --variable mainfont="DejaVu Sans" \
   --variable monofont="DejaVu Sans Mono" \
   --variable fontsize=11pt \

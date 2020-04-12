@@ -1,4 +1,4 @@
-# Simple Open Ventilator
+# Simple Open Ventilator: System
 ## Updates:
 4/3/2020:
 **Tidal volumes look good around 650mL per breath**
@@ -10,11 +10,11 @@
 *Introduction:*
 Team Seldon is producing plans and prototypes of a ventilator that can be built by tradespeople across the planet from locally obtainable materials.
 
-# Progress:
+## Progress:
 The block diagram shows our progress to date. Green Blocks are designed built and under test
 
 
-# Overall System Design
+## Overall System Design
 **System Diagram: As currently Implemented**
 
 ![System Block Diagram](CurrentBlockDiagram2.png)
@@ -26,7 +26,7 @@ More [Diagrams](Diagrams/README.md) under development
 
 -----------
 
-# Major Blocks of the Design
+## Major Blocks of the Design
 **Note: some of these links are not complete yet**
 
 * [ **Air Source** ](AirSource/README.md)
@@ -49,7 +49,7 @@ More [Diagrams](Diagrams/README.md) under development
 * [ **Electronic Control System**](/Controls/README.md)
 * [ **Bill Of Materials ](/BuildInfo/README.md) -- Current cost 422.80
 ---------
-# **Ventilator Station -- Design Requirements**
+## **Ventilator Station -- Design Requirements**
 * \- *Tidal Air Measurement and Delivery* - 400mL to 600ML
 * \- *Respiration Rate* 5-30 Cycles / min
 * \- *Pressure* 40mmHg - 60mmHg ... 21.4 inH2O - 32 inH2o
@@ -59,17 +59,17 @@ More [Diagrams](Diagrams/README.md) under development
 
 ---------
 
-# **Test and Measurement**
+## **Test and Measurement**
 * [Tidal Volume](TestMeasurement/README.md)
 * [Pressure](TestMeasurement/README.md)
 
 
 ---------
 
-# Lessons Learned
+## Lessons Learned
 * [ Lessons Learned ](Lessons/README.md)
 
 ------------
 
-# DISCLAIMER --
+## DISCLAIMER --
 See main [Page](../README.md) **Lawyers: This project is to demonstrate the possibility**

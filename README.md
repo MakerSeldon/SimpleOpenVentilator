@@ -1,4 +1,4 @@
-# [Simple Open Ventilator](System/README.md)
+# [Simple Open Ventilator: Overview](System/README.md)
 
 --------------------------
 
@@ -16,7 +16,7 @@ Team Seldon is producing plans and prototypes of a ventilator that can be built 
 
 Starting with the Block Diagram:
 
-![System Block Diagram](CurrentBlockDiagram2.png){ width=250px}
+![System Block Diagram](System/CurrentBlockDiagram2.png){ width=250px}
 
 ![Picture Under Test](Progress.jpg)
 
@@ -29,14 +29,14 @@ We have a paper we are trying to keep up, but it is a few steps behind the githu
 We also have a lessons learned [page](/System/Lessons/README.md)
 
 
-# Design Requests and Requirements
+## Design Requests and Requirements
 Several groups have come out with design guidelines and requests. We have captured a few of them here. #OSventilator will have more info
 
 * [Vulcan Rapid Vent Requirements](Documents/VulcanREQ.md)
 * [UK Rapid Vent link](https://www.gov.uk/government/publications/coronavirus-covid-19-ventilator-supply-specification/rapidly-manufactured-ventilator-system-specification)
 * [Canada](https://www.agorize.com/en/challenges/code-life-challenge/pages/guidelines?lang=en)
 
-# Progress to date:
+## Progress to date:
 Version 0.89 Complete -- Documentation and Testing underway, PEEP still to be implemented. Exhaust side leaking too much.
 
 
@@ -44,7 +44,7 @@ We are 90% of our goal of being able to create this from all Home Improvement Pa
 
 
 
-# Technical Constraints
+## Technical Constraints
 We have limits on the total volume, Respiration rate, and max pressure that can be applied to the balloon. The medical industry uses terms of art we need to convert to more traditional engineering terms.
 
 **Tidal Volume** -- Volume of air that needs to be pushed and pulled out of the balloon: 400-700mL. This is a reasonable amount. We can figure this out.
@@ -55,15 +55,15 @@ We have limits on the total volume, Respiration rate, and max pressure that can 
 
 **Respiration Rate** -- Fill, wait, exhaust cycles. We call this hysteresis. Simple control problems. 5-30 breaths per minute.
 
-# Tunable values
+## Tunable values
 * Tidal Volume 400mL to 600mL
 * Respiration Rates 5-30 cycles/min
 * Pressure 40mmHg to 60mmHg (21.4 inH2O --> 32 inH2O = Delta 10.6 inches)
 
-# Construction Constraints / Mission
+## Construction Constraints / Mission
 We know we can spend money and time to make very nice ventilators. What can we do when we need many more than can be manufactured in a hurry? Can we leverage local tradesman talent and supplies? If we assume our normal scientific supply chain is broken or too slow we have to move to distributed manufacturing with what is in stock. Our group is taking the Apollo 13 approach. What is available in the local stores, and what can local craftsmen construct? Can this be completed with all in stock parts from a local hardware store?  
 
-# Original Tasks:
+## Original Tasks:
 * **Create a system absolutely as simple as possible**
 * **Create a constant low pressure high volume air supply**
 * **Create Safety system to reduce injuries**
@@ -71,7 +71,7 @@ We know we can spend money and time to make very nice ventilators. What can we d
 * **Develop and Test Prototype System**
 * **Document prototype system**
 
-# Donations
+## Donations
 If you want to donate to the project you may donate to a developer directly for parts etc:
 ```
 BTC: 12VbmzcMsj5VtiCuqSdMPihkLPt9UEqHfd
@@ -83,7 +83,7 @@ Or you can done to a 501(c)3
 They are working on a direct donation page on GoFundMe
 
 
-# Why are we doing this?
+## Why are we doing this?
 COVID-19 has exposed a critical shortage in our medical care capabilities, and supply chain. (REF Italy doc report). Throwing money at the vendors to produce more and faster is unlikely to work in serious world-wide pandemic where supply-chains are shut down, the need for ventilators vastly outstrips the manufacturing capability, or quarantine simply shuts down transportation.
 
 
@@ -92,19 +92,19 @@ The total number of ventilators available is around 600-800k(1). Of the total ve
 
 (1) Based on off the record conversations with USG officials.
 
-# Mission Statement
+## Mission Statement
 Henry Watt from Britain during WW2 said --
 
 **'''Watt: The system was deliberately developed using existing commercially available technology to speed introduction.[60] The development team could not afford the time to develop and debug new technology. Watt, a pragmatic engineer, believed "third-best" would do if "second-best" would not be available in time and "best" never available at all. -- quote from wikipedia
 '''**
 
-# What we have volunteering part time
+## What we have volunteering part time
 - Doc reviewing our effort
 - Senior Hydraulic Engineer
 - Master Fabricator
 - Senior Electrical Engineer
 
-# What we need
+## What we need
 - Documentation help
 - Fabrication duplication
 - Imagineers / Fabricators
@@ -113,7 +113,7 @@ Henry Watt from Britain during WW2 said --
 - Funding for parts & help
 
 
-# Disclaimer Section
+## Disclaimer Section
 **Lawyers: This project is to demonstrate the possibility**
 Due to liability issues
 **No warranty of usefulness at all**
@@ -128,6 +128,6 @@ Due to liability issues
 * [Federal Register](https://www.federalregister.gov/documents/2020/03/17/2020-05484/declaration-under-the-public-readiness-and-emergency-preparedness-act-for-medical-countermeasures)
 
 
-# License
+## License
 Until we get further guidance the project is licensed as such:
 * CERN Open Hardware Licence Version 2 - Permissive [license](Documents/license.md)

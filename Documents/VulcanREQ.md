@@ -1,31 +1,31 @@
-# Vulcan-SOF
+# Appendix A: Vulcan-SOF
 
-# SOW: Study Ad-Hoc Distributed Manufacturing of un-approved ventilators
+## SOW: Study Ad-Hoc Distributed Manufacturing of un-approved ventilators
 
-# Introduction:
+### Introduction:
 COVID-19 has exposed a critical shortage in our medical care capabilities, and supply chain. Throwing money at the vendors to produce more and faster is unlikely to work in serious world-wide pandemic where supply-chains are shut down, the need for ventilators vastly outstrips the manufacturing capability, or quarantine simply shuts down transportation.
 
-# Motivation:
+### Motivation:
 The total number of ventilators available is around 600-800k. Of the total ventilators, 80% are currently in use for car accidents, surgery recovery, etc. Even if we had 1M and 20% avail that only leave 200k avail. The CDC is predicting over 1M dead in one model.
 
-# Question:
+### Question:
 Can a ventilator be produced from locally procured parts by local tradespeople with no skills in the medical industry in an emergency.
 
-# Outcome:
+### Outcome:
 Proof of Concept for Quick Reactionary Capability with distributed production for medical or other emergency requirements.
 
-# Deliverable:
+### Deliverable:
 * Attempt to produce a design spec, instructions, guides, and test procedures enabling local tradespeople to assemble and test the system.
 * Test design for reproducibility. Generate after action report.
 
-# Expectations:
+### Expectations:
 **This is an impossible task.**
 
 - Traditional FDA approved ventilators are complex pieces of machinery.
 - Innovating a design and a functioning prototype over a 2-week period of time is a near impossible task. It is unlikely that an ideal system can be developed that meets all the desired specifications and requirements.
 - However, it IS possible to get close!
 
-# Impossible Specifications:
+### Impossible Specifications:
 In order of **descending importance**, the ideal desired specifications of a Do-It- Yourself mechanical ventilator are:
 1. Total Cost of all parts <$300
 2. Able to be assembled and operated by low-skill levels
@@ -46,7 +46,7 @@ alternative)
 13. Inspiratory Time of 0.4 seconds
 14. Gauges or instruments to visualize delivered values and settings
 
-# Super Long shots:
+### Super Long shots:
 A. Provide ability to control Flow during inspiration, but if fixed: able to deliver 60L/min
 
 B. Pressure Support—a breath triggers either a set pressure or volume of
