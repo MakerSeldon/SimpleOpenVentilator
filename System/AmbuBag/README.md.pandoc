@@ -1,4 +1,4 @@
-# Ambu+ Bag
+## Ambu+ Bag
 
 An Ambu+ bag or equivalent is a human powered ventilator. The device has multiple
 safety features, valves, volume, and pressure check in it. Below is a drawing

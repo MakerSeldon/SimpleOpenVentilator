@@ -1,9 +1,9 @@
-# Air Pressure Delivery
+## Air Pressure Delivery
 
 * Simple is best.
 * We used a shop vac with a 2" hose and a HEPA filter.
 
-## Coupling ShopVac to 2" PVC
+### Coupling ShopVac to 2" PVC
 Normal Shop vac adapters are for the suction side of the vac. We need the exhaust side to hook into the system. So those wont work, but lucky for us there are ready made parts to hook them up.
 
 You need the following parts:
@@ -12,7 +12,7 @@ You need the following parts:
   the one that is about 8" long and has screw on caps at both ends and rubber gaskets
 * a cutting tool
 
-## Assembly
+### Assembly
 - Hook the hose up to the exhaust.
 - Hook one extension to the hose.  
 - Hook the second extension to the first one.

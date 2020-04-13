@@ -1,9 +1,9 @@
-# Air Source
+## Air Source
 
 Requirements for the air source is that it delivers sufficient air pressure and
 volume to drive the system.
 
-## Total Tidal Volume Calculations
+### Total Tidal Volume Calculations
 
 | Breaths per minute  | Tidal Volume  | L / min |
 |-----|---------|---------|

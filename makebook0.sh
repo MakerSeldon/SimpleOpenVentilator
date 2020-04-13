@@ -1,6 +1,8 @@
 pandoc -o SimpleVent.pdf title.txt \
   README.md.pandoc \
   System/README.md.pandoc \
+  System/Lessons/README.md.pandoc \
+  System/AssemblyChapter/README.md.pandoc \
   System/AirDistrubution/README.md.pandoc \
   System/AirFilter/README.md.pandoc \
   System/AirPressureDelivery/README.md.pandoc \
@@ -9,7 +11,6 @@ pandoc -o SimpleVent.pdf title.txt \
   System/Diagrams/README.md.pandoc \
   System/ElectoMechanicalControlSystem/README.md.pandoc \
   System/IndividualDistribution/README.md.pandoc \
-  System/Lessons/README.md.pandoc \
   System/LowPressureManometer/README.md.pandoc \
   System/LowPressureManometer/README.md.pandoc \
   System/PressureControlValve/README.md.pandoc \
@@ -24,8 +25,9 @@ pandoc -o SimpleVent.pdf title.txt \
   --variable geometry:"top=1.5cm, bottom=2.5cm, left=1.5cm, right=1.5cm" \
   --variable geometry:a4paper \
   --variable number-sections \
-  --variable documentclass=scrbook \
+  --variable documentclass=report \
   --table-of-contents \
   --toc-depth=2 \
+  --top-level-division=chapter \
   --reference-links \
   --pdf-engine=pdflatex \

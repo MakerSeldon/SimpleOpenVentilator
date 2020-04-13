@@ -1,19 +1,19 @@
-# **Electromechanical Control systems**
+## **Electromechanical Control systems**
 
 The System is driven by a very simple control system.
 
 ![As Built](AsBuilt.jpg)
 
-## Mechanical
+### Mechanical
 3 Valves
 
-## Electrical
+### Electrical
 1 arudino uno
 3 relays
 
 ---------------
 
-## Current State:
+### Current State:
 Control circuit timing is fixed currently. Can be changed by uploading new code with updated constants
 
 ![State Diagram](StateDiagram.jpg)
@@ -22,7 +22,7 @@ Control circuit timing is fixed currently. Can be changed by uploading new code 
 
 ![Timing Chart](TimingChart.jpg)
 
-## TODO:
+### TODO:
 
 * Add 2 Potentiometer inputs to vary Pulse width and Period
 * Add display showing timing for each

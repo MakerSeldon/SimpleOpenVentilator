@@ -1,1 +1,2 @@
-# TODO: make me
+## Individual Distribution Manifold
+This is a test

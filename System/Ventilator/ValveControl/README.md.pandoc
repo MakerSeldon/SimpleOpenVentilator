@@ -1,4 +1,4 @@
-# Valve Control Design
+## Valve Control Design
 **Verion 1.0**
 **TODO: Build, Test, Document**
 
@@ -9,11 +9,11 @@ But that is probably not possible.
 * Ambu+ bag works with a hand.
 * System can be extracted without disconnecting patient.
 
-# Design constrants
+## Design constrants
 * Base pressure and flow is regulated by a globe valve and monitored with a low cost [manometer](/System/LowPressureManometer/README.md).
 * During power failure, Ambu+ Must still be able to be operated manually
 
-# Theory:
+## Theory:
 In the power down state the Accumulator/ Ambu+ bag needs to operate normally. Assuming that all the valves on the Ambu+ bag are left intact. Air can enter the ambu bag thru the intake vents. Hand Forced air exits the valve into the mask. Exhaust from the patient returns back up the hose and exits the exhaust port in the front of the bag.
 
 **Power Off State**
@@ -37,7 +37,7 @@ valve B = !Valve(A)
 
 
 ![Schematic Diagram -- Current](./System/Ventilator/ValveControl//System/SystemBlockDiagram4.png)
-# Logical Control -- Practicing with tables.
+## Logical Control -- Practicing with tables.
 | Valve Name|
 |State Name | A | B | C |
 -------------------------

@@ -1,6 +1,6 @@
-# positive end-expiratory pressure (PEEP)
+### positive end-expiratory pressure (PEEP)
 
-# Experiment 1
+### Experiment 1
 Using previous experimental setup .
 
 ```
