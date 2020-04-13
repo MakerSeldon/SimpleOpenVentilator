@@ -24,6 +24,8 @@ pandoc -o SimpleVent.pdf title.txt \
   --variable geometry:"top=1.5cm, bottom=2.5cm, left=1.5cm, right=1.5cm" \
   --variable geometry:a4paper \
   --variable number-sections \
+  --variable documentclass=scrbook \
   --table-of-contents \
+  --toc-depth=2 \
   --reference-links \
   --pdf-engine=pdflatex \

@@ -1,8 +1,7 @@
 ---
 title: "Open Source DIY Ventilator Experiment"
+subtitle: "Covid-19 Resposnse"
 author: NotHari Seldon
-rights: Creative Commons Non-Commercial Share Alike
-language: us-EN
-book: true
-
+date: April 2020
+titlepage: true
 ...

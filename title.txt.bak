@@ -1,0 +1,21 @@
+---
+title: "Open Source DIY Ventilator Experiment"
+subtitle: COVID-19 Response
+author: NotHari Seldon
+date: April 2020
+titlepage: true
+...
+titlepage-color: 06386e
+titlepage-text-color: ffffff
+titlepage-rule-color: ffffff
+titlepage-rule-height: 1
+
+toc: true
+numbersections: true
+rights: Creative Commons Non-Commercial Share Alike
+language: us-EN
+book: true
+abstract: Book describing what a ventilator is, and how to manufacture a simple version.
+linkReferences: false
+
+...
